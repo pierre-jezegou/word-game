@@ -7,7 +7,16 @@ class TrieNode():
         self.children: dict[TrieNode] = {}
         self.is_end_word: bool = False
         self.value: str | None = ""
-        self.depth: int | None = 0
+        self.depth: int = 0
+    
+    def leaves_counter_recursive(self) -> int:
+        if not self.children:
+            return 1
+        counter = 0
+        for _, child in enumerate(self.children):
+            counter += self.children[child].leaves_counter_recursive()
+        return counter
+
 
 
 class Trie():
@@ -23,9 +32,9 @@ class Trie():
             depth += 1
             if char not in node.children:
                 node.children[char] = TrieNode()
-                node.depth = depth
                 node.children[char].value = char
             node = node.children[char]
+            node.depth = depth
         node.is_end_word = True
     
 
@@ -39,46 +48,47 @@ class Trie():
 
 
 
-def generate_tikz_trie(node: TrieNode,
-                       x_offset: float = 0,
-                       y_offset: float = 0,
-                       parent_node_label: str | None = None
-                       ) -> str:
+HORIZONTAL_DISTORSION = 1.2
+
+
+def generate_tikz_trie(node: TrieNode, is_root= False, horizontal_distorsion: float = HORIZONTAL_DISTORSION) -> str:
     
     tikz_code = ""
-    if parent_node_label is None:
-        tikz_code += '\\node [fill=blue!50](%s) {%s};\n' % (node.value + "_" + str(node.depth) + "_node", node.value)
+    if is_root:
+        tikz_code += node.depth*"\t"+'\\node [circle, fill=blue!50]{%s}[sibling distance=%scm]\n' % (node.value, horizontal_distorsion * node.leaves_counter_recursive())
     else:
-        tikz_code += '\\node [below=of %s, level distance=2.5cm, sibling distance=3cm, circle, fill=red!20](%s) {%s};\n' % (parent_node_label, node.value + "_" + str(node.depth) + "_node", node.value)
+        tikz_code += node.depth*"\t"+'child{node[circle, fill=red!%f]{%s}[sibling distance=%scm]\n' % ((1/node.depth)*100*0.5, node.value, horizontal_distorsion * node.leaves_counter_recursive())
 
-    parent_node_label_str = str(node.value) + "_" + str(node.depth) + "_node"
-
-    for i, child in enumerate(node.children):
-        child_x_offset = 1.5 * (i - len(node.children)/2)
-        tikz_code += generate_tikz_trie(node.children[child], child_x_offset, y_offset -1, parent_node_label_str)
-        tikz_code += '\\draw (%s) -- (%s);\n' % (parent_node_label_str, (node.children[child].value + "_" + str(node.children[child].depth) + "_node"))
-        
+    for _, child in enumerate(node.children):
+        tikz_code += generate_tikz_trie(node.children[child])
+        tikz_code += (node.depth+1)*"\t"+'}\n'
+    
+    if is_root:
+        tikz_code += ';\n'
     return tikz_code
 
+        
+    
+
 # # Generate TikZ code
-def test():
-    tikz_code = '\\begin{tikzpicture}\n'
-    tikz_code += generate_tikz_trie(trie.root)
+def generate_complete_tikz_block():
+    tikz_code = '\\begin{tikzpicture}[scale=0.45]\n'
+    tikz_code += generate_tikz_trie(trie.root, True)
     tikz_code += '\\end{tikzpicture}\n'
 
-    print(tikz_code)
+    return (tikz_code)
 
 
 
 
 
-dictionary = ["FOR", "HER", "ORE", "THE", "HERE", "THEREFORE", "HEY", "HEAT"]
+dictionary = ["FOR", "HER", "THE", "HERE", "THEREFORE", "HEY", "HEAT", "TELEVISION", "THIS", "THAT", "FIRE", "TELEPHONE", "TELEPHONY", "FORCE", "FORWARD"]
+# dictionary = ["MAN", "MANAGE", "MANNER", "MANDATE", "MANUSCRIPT", "MANUFACTURE", "MANEUVER", "MANICURE", "MANSION", "MANIFEST", "PORT", "PORTAL", "PORTION", "PORTFOLIO", "PORTRAY", "PORTABLE", "PORTLAND", "PORTUGAL", "PORTION", "PORTICO"]
 
 trie = Trie()
 
 for word in dictionary:
     trie.insert_word(word=word)
 
-test()
-    
-# print(trie.search('TRE'))
+print(generate_complete_tikz_block())
+
