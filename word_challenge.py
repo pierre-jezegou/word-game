@@ -3,6 +3,8 @@ import re
 import random
 import sys
 import time
+from prettytable import PrettyTable
+import numpy as np
 
 
 REGEX_TEXT = r'^(?:[a-zA-Z]+)'
@@ -77,5 +79,22 @@ def automated_mode():
         })
     return results
 
+def print_results_in_table(results: list[dict[int|float]]) -> None:
+    '''Print results in pretty table'''
+    table = PrettyTable(["Iteration", "CPU time", "Word counter"])
+    len_results = len(results)
+    for i, result in enumerate(results):
+        table.add_row([result["iteration"],
+                       result["cpu_time"],
+                       result["word_counter"]
+                       ],
+                       divider = i == len_results - 1)
+
+    mean_cpu_time = np.mean([result["cpu_time"] for result in results])
+    mean_word_counter = np.mean([result["word_counter"] for result in results])
+    table.add_row(["AVG:", mean_cpu_time, mean_word_counter])
+    print(table)
+
 if __name__ == "__main__":
-    print(automated_mode())
+    results = automated_mode()
+    print_results_in_table(results)
