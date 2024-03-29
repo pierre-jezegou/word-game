@@ -1,0 +1,53 @@
+\documentclass[10pt,a4paper,hidelinks]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel}
+\usepackage[T1]{fontenc}
+
+\newcommand{\documentStatus}{DRAFT}
+
+
+\input{settings-content/packages-and-conf}
+
+\usepackage{lmodern}
+\renewcommand*\familydefault{\sfdefault}
+
+
+\begin{document}
+\include{includes/000-cover_page}
+
+\section{Introduction}
+
+
+This program implements a trie data structure to store words.
+A trie is a tree-like data structure that stores a dynamic set of strings, where each node represents a single character of the string.
+The TrieNode class represents the structure of a trie node, which contains information such as its children, whether it marks the end of a word, its value (character), and its depth in the trie.\\
+
+The Trie class implements the operations and building procedure for the trie. It has methods to insert words into the trie and to search for words in the trie.
+The program also includes functions to generate TikZ code for visualizing the trie. The \verb|generate_tikz_trie| function generates TikZ code to visualize the trie structure, while the \verb|generate_search_path| function generates TikZ code to visualize the search path for a given word in the trie.
+Finally, the program creates an instance of the Trie class, inserts words from a given dictionary into the trie, and generates TikZ code to visualize the trie with a specific search word highlighted.
+
+\begin{exercise_description}{Word challenge}
+    In Word Challenge the user gives a (multi)set of up to 17 letters, and the program produces all words which can be written using a subset of the given letters. For example, if the user gives the letters \verb|{E,T,F,H,R,R,E,O,E}| the program will write by increasing length and then in alphabetic order all the words that can be built using (some) of these letters, for example, \verb|FOR, HER, ORE, THE, .., HERE, ..., THEREFORE|. The dictionary does only contain words of $\text{length}\geqslant  3$, hence if given $\ell \geqslant 3$ the list of results starts with words of length 3 and ends with words of length $\ell$ (or smaller, if there were no words of length $\ell$ using all given letters). Besides being able to play interactively with the user, the program must give an "automatic mode" in which the program does the following repeatedly:
+    \begin{enumerate}
+    \item Picks a random word from the dictionary of given length $\ell$
+    \item Rearranges its letters randomly
+    \item Supplies these letters to the function that generates the list of words which can be built from the given letters
+    \end{enumerate}
+    In automatic mode the user gives the number of times that the game will be played, and the length $\ell$, and it outputs the average number of words found and the average CPU time that the program takes to "solve" a word of length $\ell$.
+\end{exercise_description}
+
+\begin{figure}[h]
+    \centering
+    \input{tries}
+    \caption{Search path}
+    \label{fig:search_path_pgm}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \input{tries_draw}
+    \caption{Draw trie}
+    \label{fig:draw_pgm}
+\end{figure}
+
+\end{document}
