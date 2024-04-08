@@ -1,4 +1,5 @@
 '''Implementation of a tries data structure to store words'''
+from itertools import permutations
 
 class TrieNode():
     '''Implementation of the structure of a trie node'''
@@ -62,3 +63,19 @@ class Trie():
                 return False
             node = node.children[char]
         return node.is_end_word
+
+
+    def word_game_main_function(self, letters_list: list[str]) -> tuple[int, list[str]]:
+        '''Return words built by given letters'''
+        counter = 0
+        words = []
+        for i in range(1, len(letters_list) + 1):
+            for permutation in permutations(letters_list, i):
+                word = ''.join(permutation).upper()
+                # TODO Pay attention to the alphabet used in the dictionary.txt
+                if len(word) <= 3:
+                    continue
+                if self.search(word):
+                    counter += 1
+                    words.append(word)
+        return counter, words

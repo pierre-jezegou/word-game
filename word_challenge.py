@@ -6,6 +6,7 @@ import time
 from prettytable import PrettyTable
 import numpy as np
 import matplotlib.pyplot as plt
+from tries import Trie, TrieNode
 
 REGEX_TEXT = r'^(?:[a-zA-Z]+)'
 REGEX_COUNTER = r'(\d+)'
@@ -28,9 +29,10 @@ def extract_informations(text: str) -> dict[str|int] | None:
 
 def shuffle_string(string: str) -> str:
     '''Random shuffle of a string'''
+    print(string)
     tmp = list(string)
     random.shuffle(tmp)
-    return ''.join(tmp)
+    return ''.join(tmp).upper()
 
 
 def get_random_line(file_path: str) -> str:
@@ -54,7 +56,7 @@ def get_random_shuffled_list(file_path: str) -> list:
     return list(shuffle_string(string))
 
 
-def automated_mode():
+def automated_mode(trie: Trie):
     '''Simulate x times word_challenge (x given by user in cmd line)'''
     try:
         number_times_needed = int(sys.argv[1])
@@ -69,13 +71,14 @@ def automated_mode():
         letters = get_random_shuffled_list("dictionary.txt")
 
         start_time = time.time()
-        #ACTIONS
+        # word_counter = 0
+        word_counter, _ = trie.word_game_main_function(letters)
         end_time = time.time()
         elapsed_time = end_time - start_time
         results.append({
             "iteration": i,
             "cpu_time": elapsed_time,
-            "word_counter": 0,
+            "word_counter": word_counter,
         })
     return results
 
@@ -149,9 +152,18 @@ def _display_performances(samples: int) -> None:
     print(processed_results)
 
 if __name__ == "__main__":
-    # results = automated_mode()
-    # print_results_in_table(results)
-    res = _display_performances(10**4)
-    print(res)
+    dictionary = ["FOR", "HER", "HERE", "HEY", "HEAT", "FIRE", "FORCE", "FORWARD", "FORWARDER", "FIRM", "FIRSTLY", "FIRSTS", "FIREWORK", "HEIGHTY", "HEIGHTEEN"]
+
+    trie = Trie()
+
+    for word in dictionary:
+        trie.insert_word(word=word)
+    
+    results = automated_mode(trie)
+
+    
+    print_results_in_table(results)
+    # res = _display_performances(10**4)
+    # print(res)
 
 # b = [[result_grouped["length"] for result_grouped in a if result_grouped["length"] == i] for i in [result["length"] for result in a]]
