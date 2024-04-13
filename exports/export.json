@@ -1,0 +1,602 @@
+[
+    {
+        "iteration": 0,
+        "initial_word_length": 8,
+        "cpu_time": 0.020746946334838867,
+        "word_counter": 72
+    },
+    {
+        "iteration": 1,
+        "initial_word_length": 10,
+        "cpu_time": 1.9368188381195068,
+        "word_counter": 150
+    },
+    {
+        "iteration": 2,
+        "initial_word_length": 9,
+        "cpu_time": 0.18332123756408691,
+        "word_counter": 120
+    },
+    {
+        "iteration": 3,
+        "initial_word_length": 5,
+        "cpu_time": 0.00010991096496582031,
+        "word_counter": 11
+    },
+    {
+        "iteration": 4,
+        "initial_word_length": 5,
+        "cpu_time": 0.00010704994201660156,
+        "word_counter": 13
+    },
+    {
+        "iteration": 5,
+        "initial_word_length": 6,
+        "cpu_time": 0.0003979206085205078,
+        "word_counter": 16
+    },
+    {
+        "iteration": 6,
+        "initial_word_length": 6,
+        "cpu_time": 0.0004210472106933594,
+        "word_counter": 29
+    },
+    {
+        "iteration": 7,
+        "initial_word_length": 9,
+        "cpu_time": 0.1853930950164795,
+        "word_counter": 86
+    },
+    {
+        "iteration": 8,
+        "initial_word_length": 6,
+        "cpu_time": 0.0003859996795654297,
+        "word_counter": 11
+    },
+    {
+        "iteration": 9,
+        "initial_word_length": 6,
+        "cpu_time": 0.00039505958557128906,
+        "word_counter": 19
+    },
+    {
+        "iteration": 10,
+        "initial_word_length": 9,
+        "cpu_time": 0.186690092086792,
+        "word_counter": 40
+    },
+    {
+        "iteration": 11,
+        "initial_word_length": 6,
+        "cpu_time": 0.0004279613494873047,
+        "word_counter": 19
+    },
+    {
+        "iteration": 12,
+        "initial_word_length": 8,
+        "cpu_time": 0.021404266357421875,
+        "word_counter": 240
+    },
+    {
+        "iteration": 13,
+        "initial_word_length": 9,
+        "cpu_time": 0.17906808853149414,
+        "word_counter": 51
+    },
+    {
+        "iteration": 14,
+        "initial_word_length": 9,
+        "cpu_time": 0.1872997283935547,
+        "word_counter": 129
+    },
+    {
+        "iteration": 15,
+        "initial_word_length": 6,
+        "cpu_time": 0.0003719329833984375,
+        "word_counter": 8
+    },
+    {
+        "iteration": 16,
+        "initial_word_length": 7,
+        "cpu_time": 0.00263214111328125,
+        "word_counter": 56
+    },
+    {
+        "iteration": 17,
+        "initial_word_length": 5,
+        "cpu_time": 8.988380432128906e-05,
+        "word_counter": 9
+    },
+    {
+        "iteration": 18,
+        "initial_word_length": 3,
+        "cpu_time": 4.0531158447265625e-06,
+        "word_counter": 3
+    },
+    {
+        "iteration": 19,
+        "initial_word_length": 4,
+        "cpu_time": 1.5735626220703125e-05,
+        "word_counter": 3
+    },
+    {
+        "iteration": 20,
+        "initial_word_length": 8,
+        "cpu_time": 0.020030975341796875,
+        "word_counter": 47
+    },
+    {
+        "iteration": 21,
+        "initial_word_length": 6,
+        "cpu_time": 0.0004177093505859375,
+        "word_counter": 13
+    },
+    {
+        "iteration": 22,
+        "initial_word_length": 5,
+        "cpu_time": 8.678436279296875e-05,
+        "word_counter": 11
+    },
+    {
+        "iteration": 23,
+        "initial_word_length": 11,
+        "cpu_time": 21.416353940963745,
+        "word_counter": 162
+    },
+    {
+        "iteration": 24,
+        "initial_word_length": 9,
+        "cpu_time": 0.18689799308776855,
+        "word_counter": 83
+    },
+    {
+        "iteration": 25,
+        "initial_word_length": 8,
+        "cpu_time": 0.0213470458984375,
+        "word_counter": 38
+    },
+    {
+        "iteration": 26,
+        "initial_word_length": 5,
+        "cpu_time": 8.58306884765625e-05,
+        "word_counter": 8
+    },
+    {
+        "iteration": 27,
+        "initial_word_length": 5,
+        "cpu_time": 8.225440979003906e-05,
+        "word_counter": 5
+    },
+    {
+        "iteration": 28,
+        "initial_word_length": 5,
+        "cpu_time": 8.320808410644531e-05,
+        "word_counter": 6
+    },
+    {
+        "iteration": 29,
+        "initial_word_length": 9,
+        "cpu_time": 0.18859171867370605,
+        "word_counter": 70
+    },
+    {
+        "iteration": 30,
+        "initial_word_length": 6,
+        "cpu_time": 0.00038695335388183594,
+        "word_counter": 18
+    },
+    {
+        "iteration": 31,
+        "initial_word_length": 9,
+        "cpu_time": 0.1911017894744873,
+        "word_counter": 215
+    },
+    {
+        "iteration": 32,
+        "initial_word_length": 10,
+        "cpu_time": 1.869563102722168,
+        "word_counter": 175
+    },
+    {
+        "iteration": 33,
+        "initial_word_length": 8,
+        "cpu_time": 0.020749807357788086,
+        "word_counter": 69
+    },
+    {
+        "iteration": 34,
+        "initial_word_length": 8,
+        "cpu_time": 0.020765066146850586,
+        "word_counter": 53
+    },
+    {
+        "iteration": 35,
+        "initial_word_length": 8,
+        "cpu_time": 0.02041912078857422,
+        "word_counter": 55
+    },
+    {
+        "iteration": 36,
+        "initial_word_length": 7,
+        "cpu_time": 0.002595663070678711,
+        "word_counter": 46
+    },
+    {
+        "iteration": 37,
+        "initial_word_length": 9,
+        "cpu_time": 0.19093704223632812,
+        "word_counter": 312
+    },
+    {
+        "iteration": 38,
+        "initial_word_length": 5,
+        "cpu_time": 9.608268737792969e-05,
+        "word_counter": 8
+    },
+    {
+        "iteration": 39,
+        "initial_word_length": 6,
+        "cpu_time": 0.0004088878631591797,
+        "word_counter": 22
+    },
+    {
+        "iteration": 40,
+        "initial_word_length": 7,
+        "cpu_time": 0.0026328563690185547,
+        "word_counter": 52
+    },
+    {
+        "iteration": 41,
+        "initial_word_length": 5,
+        "cpu_time": 7.390975952148438e-05,
+        "word_counter": 6
+    },
+    {
+        "iteration": 42,
+        "initial_word_length": 5,
+        "cpu_time": 8.082389831542969e-05,
+        "word_counter": 9
+    },
+    {
+        "iteration": 43,
+        "initial_word_length": 6,
+        "cpu_time": 0.00039696693420410156,
+        "word_counter": 22
+    },
+    {
+        "iteration": 44,
+        "initial_word_length": 5,
+        "cpu_time": 7.772445678710938e-05,
+        "word_counter": 4
+    },
+    {
+        "iteration": 45,
+        "initial_word_length": 8,
+        "cpu_time": 0.020552873611450195,
+        "word_counter": 92
+    },
+    {
+        "iteration": 46,
+        "initial_word_length": 8,
+        "cpu_time": 0.02101302146911621,
+        "word_counter": 72
+    },
+    {
+        "iteration": 47,
+        "initial_word_length": 8,
+        "cpu_time": 0.01993393898010254,
+        "word_counter": 36
+    },
+    {
+        "iteration": 48,
+        "initial_word_length": 7,
+        "cpu_time": 0.0027320384979248047,
+        "word_counter": 46
+    },
+    {
+        "iteration": 49,
+        "initial_word_length": 11,
+        "cpu_time": 22.33514976501465,
+        "word_counter": 721
+    },
+    {
+        "iteration": 0,
+        "initial_word_length": 5,
+        "cpu_time": 6.890296936035156e-05,
+        "word_counter": 11
+    },
+    {
+        "iteration": 1,
+        "initial_word_length": 11,
+        "cpu_time": 22.08230495452881,
+        "word_counter": 363
+    },
+    {
+        "iteration": 2,
+        "initial_word_length": 8,
+        "cpu_time": 0.02130413055419922,
+        "word_counter": 48
+    },
+    {
+        "iteration": 3,
+        "initial_word_length": 5,
+        "cpu_time": 0.00010704994201660156,
+        "word_counter": 9
+    },
+    {
+        "iteration": 4,
+        "initial_word_length": 6,
+        "cpu_time": 0.0003788471221923828,
+        "word_counter": 11
+    },
+    {
+        "iteration": 5,
+        "initial_word_length": 8,
+        "cpu_time": 0.01985621452331543,
+        "word_counter": 72
+    },
+    {
+        "iteration": 6,
+        "initial_word_length": 5,
+        "cpu_time": 8.606910705566406e-05,
+        "word_counter": 5
+    },
+    {
+        "iteration": 7,
+        "initial_word_length": 6,
+        "cpu_time": 0.0004379749298095703,
+        "word_counter": 18
+    },
+    {
+        "iteration": 8,
+        "initial_word_length": 6,
+        "cpu_time": 0.0003693103790283203,
+        "word_counter": 11
+    },
+    {
+        "iteration": 9,
+        "initial_word_length": 6,
+        "cpu_time": 0.000396728515625,
+        "word_counter": 18
+    },
+    {
+        "iteration": 10,
+        "initial_word_length": 8,
+        "cpu_time": 0.0198671817779541,
+        "word_counter": 48
+    },
+    {
+        "iteration": 11,
+        "initial_word_length": 4,
+        "cpu_time": 3.0279159545898438e-05,
+        "word_counter": 6
+    },
+    {
+        "iteration": 12,
+        "initial_word_length": 9,
+        "cpu_time": 0.18434405326843262,
+        "word_counter": 100
+    },
+    {
+        "iteration": 13,
+        "initial_word_length": 5,
+        "cpu_time": 7.82012939453125e-05,
+        "word_counter": 11
+    },
+    {
+        "iteration": 14,
+        "initial_word_length": 5,
+        "cpu_time": 8.296966552734375e-05,
+        "word_counter": 8
+    },
+    {
+        "iteration": 15,
+        "initial_word_length": 7,
+        "cpu_time": 0.0026140213012695312,
+        "word_counter": 32
+    },
+    {
+        "iteration": 16,
+        "initial_word_length": 10,
+        "cpu_time": 1.9407241344451904,
+        "word_counter": 205
+    },
+    {
+        "iteration": 17,
+        "initial_word_length": 7,
+        "cpu_time": 0.002568960189819336,
+        "word_counter": 41
+    },
+    {
+        "iteration": 18,
+        "initial_word_length": 7,
+        "cpu_time": 0.002531290054321289,
+        "word_counter": 23
+    },
+    {
+        "iteration": 19,
+        "initial_word_length": 6,
+        "cpu_time": 0.00041794776916503906,
+        "word_counter": 19
+    },
+    {
+        "iteration": 20,
+        "initial_word_length": 6,
+        "cpu_time": 0.00042510032653808594,
+        "word_counter": 5
+    },
+    {
+        "iteration": 21,
+        "initial_word_length": 3,
+        "cpu_time": 6.9141387939453125e-06,
+        "word_counter": 1
+    },
+    {
+        "iteration": 22,
+        "initial_word_length": 10,
+        "cpu_time": 1.9194297790527344,
+        "word_counter": 160
+    },
+    {
+        "iteration": 23,
+        "initial_word_length": 7,
+        "cpu_time": 0.0023832321166992188,
+        "word_counter": 15
+    },
+    {
+        "iteration": 24,
+        "initial_word_length": 4,
+        "cpu_time": 1.811981201171875e-05,
+        "word_counter": 2
+    },
+    {
+        "iteration": 25,
+        "initial_word_length": 5,
+        "cpu_time": 8.487701416015625e-05,
+        "word_counter": 7
+    },
+    {
+        "iteration": 26,
+        "initial_word_length": 4,
+        "cpu_time": 1.8835067749023438e-05,
+        "word_counter": 3
+    },
+    {
+        "iteration": 27,
+        "initial_word_length": 4,
+        "cpu_time": 1.9788742065429688e-05,
+        "word_counter": 9
+    },
+    {
+        "iteration": 28,
+        "initial_word_length": 6,
+        "cpu_time": 0.00039577484130859375,
+        "word_counter": 26
+    },
+    {
+        "iteration": 29,
+        "initial_word_length": 6,
+        "cpu_time": 0.00047898292541503906,
+        "word_counter": 40
+    },
+    {
+        "iteration": 0,
+        "initial_word_length": 6,
+        "cpu_time": 0.0003838539123535156,
+        "word_counter": 9
+    },
+    {
+        "iteration": 1,
+        "initial_word_length": 4,
+        "cpu_time": 1.3828277587890625e-05,
+        "word_counter": 4
+    },
+    {
+        "iteration": 2,
+        "initial_word_length": 7,
+        "cpu_time": 0.002712726593017578,
+        "word_counter": 42
+    },
+    {
+        "iteration": 3,
+        "initial_word_length": 4,
+        "cpu_time": 1.1682510375976562e-05,
+        "word_counter": 1
+    },
+    {
+        "iteration": 4,
+        "initial_word_length": 8,
+        "cpu_time": 0.02012491226196289,
+        "word_counter": 29
+    },
+    {
+        "iteration": 5,
+        "initial_word_length": 4,
+        "cpu_time": 1.9073486328125e-05,
+        "word_counter": 3
+    },
+    {
+        "iteration": 6,
+        "initial_word_length": 3,
+        "cpu_time": 5.9604644775390625e-06,
+        "word_counter": 1
+    },
+    {
+        "iteration": 7,
+        "initial_word_length": 7,
+        "cpu_time": 0.0025110244750976562,
+        "word_counter": 23
+    },
+    {
+        "iteration": 8,
+        "initial_word_length": 9,
+        "cpu_time": 0.19300198554992676,
+        "word_counter": 289
+    },
+    {
+        "iteration": 9,
+        "initial_word_length": 6,
+        "cpu_time": 0.00039386749267578125,
+        "word_counter": 14
+    },
+    {
+        "iteration": 10,
+        "initial_word_length": 8,
+        "cpu_time": 0.021027803421020508,
+        "word_counter": 73
+    },
+    {
+        "iteration": 11,
+        "initial_word_length": 8,
+        "cpu_time": 0.020194053649902344,
+        "word_counter": 24
+    },
+    {
+        "iteration": 12,
+        "initial_word_length": 7,
+        "cpu_time": 0.002544879913330078,
+        "word_counter": 25
+    },
+    {
+        "iteration": 13,
+        "initial_word_length": 10,
+        "cpu_time": 1.8881561756134033,
+        "word_counter": 178
+    },
+    {
+        "iteration": 14,
+        "initial_word_length": 7,
+        "cpu_time": 0.0024781227111816406,
+        "word_counter": 22
+    },
+    {
+        "iteration": 15,
+        "initial_word_length": 4,
+        "cpu_time": 1.9311904907226562e-05,
+        "word_counter": 4
+    },
+    {
+        "iteration": 16,
+        "initial_word_length": 8,
+        "cpu_time": 0.0208740234375,
+        "word_counter": 41
+    },
+    {
+        "iteration": 17,
+        "initial_word_length": 10,
+        "cpu_time": 1.9481918811798096,
+        "word_counter": 216
+    },
+    {
+        "iteration": 18,
+        "initial_word_length": 6,
+        "cpu_time": 0.00041103363037109375,
+        "word_counter": 18
+    },
+    {
+        "iteration": 19,
+        "initial_word_length": 4,
+        "cpu_time": 2.4080276489257812e-05,
+        "word_counter": 2
+    }
+]

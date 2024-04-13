@@ -1,60 +1,13 @@
 '''Simulate word challenge'''
-import re
-import random
 import sys
 import time
+import json
 from prettytable import PrettyTable
 import numpy as np
 import matplotlib.pyplot as plt
 from tries import Trie, TrieNode
-
-REGEX_TEXT = r'^(?:[a-zA-Z]+)'
-REGEX_COUNTER = r'(\d+)'
-
-
-def extract_informations(text: str) -> dict[str|int] | None:
-    '''Extract text and counter from a given string
-        Ex: extract str:"abbey" and int:4224864 from "abbey:4224864"'''
-
-    extracted_text = re.match(REGEX_TEXT, text)
-
-    return extracted_text.group()
-    # extracter_counter = re.match(REGEX_COUNTER, text)
-    # if extracted_text and extracter_counter:
-    #     return {
-    #         "text": extracted_text,
-    #         "counter": int(extracter_counter.group())
-    #     }
-
-
-def shuffle_string(string: str) -> str:
-    '''Random shuffle of a string'''
-    print(string)
-    tmp = list(string)
-    random.shuffle(tmp)
-    return ''.join(tmp).upper()
-
-
-def get_random_line(file_path: str) -> str:
-    '''Get random line from a goven file'''
-
-    with open(file_path, 'r') as file:
-        num_lines = sum(1 for line in file)
-        random_line_num = random.randint(0, num_lines - 1)
-
-        file.seek(0)
-
-        for line_number, line in enumerate(file):
-            if line_number == random_line_num:
-                return line.strip()
-    raise IndexError
-
-
-def get_random_shuffled_list(file_path: str) -> list:
-    '''Compose get_line and shuffle word to get a random shuffled word'''
-    string = extract_informations(get_random_line(file_path))
-    return list(shuffle_string(string))
-
+from additional_algorithms.string_words_manipulation import *
+from additional_algorithms.set_dictionary import *
 
 def automated_mode(trie: Trie):
     '''Simulate x times word_challenge (x given by user in cmd line)'''
@@ -77,6 +30,7 @@ def automated_mode(trie: Trie):
         elapsed_time = end_time - start_time
         results.append({
             "iteration": i,
+            "initial_word_length": len(letters),
             "cpu_time": elapsed_time,
             "word_counter": word_counter,
         })
@@ -85,10 +39,11 @@ def automated_mode(trie: Trie):
 
 def print_results_in_table(results: list[dict[int|float]]) -> None:
     '''Print results in pretty table'''
-    table = PrettyTable(["Iteration", "CPU time", "Word counter"])
+    table = PrettyTable(["Iteration", "Initial length", "CPU time", "Word counter"])
     len_results = len(results)
     for i, result in enumerate(results):
-        table.add_row([result["iteration"], 
+        table.add_row([result["iteration"],
+                       result["initial_word_length"] ,
                        result["cpu_time"],
                        result["word_counter"]
                        ],
@@ -96,7 +51,7 @@ def print_results_in_table(results: list[dict[int|float]]) -> None:
 
     mean_cpu_time = np.mean([result["cpu_time"] for result in results])
     mean_word_counter = np.mean([result["word_counter"] for result in results])
-    table.add_row(["AVG:", mean_cpu_time, mean_word_counter])
+    table.add_row(["AVG:", None,mean_cpu_time, mean_word_counter])
     print(table)
 
 
@@ -151,15 +106,19 @@ def _display_performances(samples: int) -> None:
     
     print(processed_results)
 
+def save_results_json(results:list[dict[str|float]]) -> None:
+    with open('exports/results_'+str(time.time())+".json", 'w') as f:
+        json_dump = json.dump(results, f, indent=4)
+
+
 if __name__ == "__main__":
-    dictionary = ["FOR", "HER", "HERE", "HEY", "HEAT", "FIRE", "FORCE", "FORWARD", "FORWARDER", "FIRM", "FIRSTLY", "FIRSTS", "FIREWORK", "HEIGHTY", "HEIGHTEEN"]
+    # dictionary = ["FOR", "HER", "HERE", "HEY", "HEAT", "FIRE", "FORCE", "FORWARD", "FORWARDER", "FIRM", "FIRSTLY", "FIRSTS", "FIREWORK", "HEIGHTY", "HEIGHTEEN"]
 
-    trie = Trie()
-
-    for word in dictionary:
-        trie.insert_word(word=word)
+    # trie = Trie()
+    trie = build_trie('dictionary.txt')
     
     results = automated_mode(trie)
+    save_results_json(results)
 
     
     print_results_in_table(results)
