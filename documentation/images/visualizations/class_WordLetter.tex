@@ -1,0 +1,35 @@
+\begin{figure}[h]
+    \centering
+    \begin{tikzpicture}
+        \node[draw, rounded corners=2mm, inner sep = 0.2cm, fill=orange!0] { 
+        \begin{tikzpicture} 
+            \node[inner sep = 1mm] (title) { \Large{\bfseries WordLetter }}; 
+            % \draw (title.south west) -- (title.south east);
+            \node[at=(title.south), anchor=north, inner sep=3mm, align=left, fill=green!30!black!10, yshift=-0.2cm] (attributes) {
+                \begin{minipage}{60mm}
+                    \textbf{Attributes}\\
+                    \small{0}: \verb|index|\\
+\small{1}: \verb|past_letters|\\
+\small{2}: \verb|score|\\
+\small{3}: \verb|blocked_letter|\\
+\small{4}: \verb|current_letter|
+                \end{minipage} 
+                };
+            % \draw (attributes.north west) -- (attributes.north east);
+            \node[at=(attributes.south), anchor=north, inner sep=3mm, align=left, fill=blue!10, yshift=-0.2cm] (methods) {
+                \begin{minipage}{60mm}
+                    \textbf{Methods}\\
+                    \small{0}: \verb|add_letter_guess|\\
+\small{1}: \verb|add_past_letter|\\
+\small{2}: \verb|block_letter|\\
+\small{3}: \verb|is_past_letter|\\
+\small{4}: \verb|update_score|
+                \end{minipage} 
+                };
+            % \draw (methods.north west) -- (methods.north east);
+        \end{tikzpicture}
+        }; 
+    \end{tikzpicture}
+    \caption{Class description - WordLetter }
+    \label{class:WordLetter}
+\end{figure}
