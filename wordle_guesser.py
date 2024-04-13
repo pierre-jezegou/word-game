@@ -1,4 +1,4 @@
-from string_words_manipulation import *
+from additional_algorithms.string_words_manipulation import *
 from tries import Trie
 
 SECRET_LENGTH = 4
