@@ -3,22 +3,23 @@ from tries import Trie
 
 SECRET_LENGTH = 4
 DICTIONARY_PATH = "dictionary.txt"
-MAX_ATTEMPTS = 10
+MAX_GUESSES = 10
 
 def guesser_mode(trie: Trie,
                  word_length: int = SECRET_LENGTH,
-                 dictionary_path: str = DICTIONARY_PATH
+                 dictionary_path: str = DICTIONARY_PATH,
+                 max_attempts: int = MAX_GUESSES
                  ) -> None:
 
     secret = ''
+
     while len(secret) != word_length:
         secret = extract_informations(get_random_line(dictionary_path))
-    secret = "FIRE"
     print(secret)
     result_array = [0 for _ in range(word_length)]
     attempts = 0
 
-    while not all(num == 2 for num in result_array) and attempts <= MAX_ATTEMPTS:
+    while not all(num == 2 for num in result_array) and attempts <= max_attempts:
         user_input = input('Enter your guess: ')
         try:
             assert len(user_input)==len(secret)
@@ -34,11 +35,11 @@ def guesser_mode(trie: Trie,
         attempts += 1
 
         if all(num == 2 for num in result_array):
-            print(f"""Well done, the word was %s.\n
-                  You guessed it in %d attempts"""
-                  % (secret, attempts))
+            print(
+                f"Well done, the word was %s.\nYou guessed it in %d attempts"
+                % (secret, attempts))
 
-        elif attempts == MAX_ATTEMPTS:
+        elif attempts == max_attempts:
             print("Try again... too many attempts")
 
         else:
@@ -61,16 +62,3 @@ def check_letter_status(letter: str, index: int, secret: str) -> int:
 
     return int(letter in secret)
 
-
-def keeper_mode():
-    pass
-
-
-dictionary = ["FOR", "HER", "HERE", "HEY", "HEAT", "FIRE", "FORCE", "FORWARD", "FORWARDER", "FIRM", "FIRSTLY", "FIRSTS", "FIREWORK", "HEIGHTY", "HEIGHTEEN", "FIREWALL"]
-
-trie = Trie()
-
-for word in dictionary:
-    trie.insert_word(word=word)
-
-guesser_mode(trie)
