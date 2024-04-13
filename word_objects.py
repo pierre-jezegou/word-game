@@ -36,7 +36,7 @@ class WordLetter():
 
 
 class Guess():
-    '''Implement guess class to '''
+    '''Implement guess class for keeper mode'''
     def __init__(self,
                  length: int,
                  dictionary_trie: Trie,
@@ -85,7 +85,7 @@ class Guess():
             l = extract_random_letter()
             counter += 1
 
-        letter.add_letter_guess(l)
+        return letter.add_letter_guess(l)
 
     def actualize_letters_informations(self, scores: list[int]) -> None:
         '''Set letter informations depending on score array'''
@@ -101,6 +101,7 @@ class Guess():
 
 
     def generate_new_letters(self) -> None:
+        '''Geerate new letters attempts for non found letters'''
         for letter in self.letters:
             if not letter.blocked_letter: # To limit function scope
                 self.actualize_letter(letter)
@@ -131,10 +132,11 @@ dictionary = ['ACE', 'ACT', 'ADD', 'ADS', 'AFT', 'AGE', 'AGO', 'AID', 'AIM', 'AI
 
 trie = Trie()
 
-for word in dictionary:
-    trie.insert_word(word=word)
+for word_trie in dictionary:
+    trie.insert_word(word=word_trie)
 
-def main():
+def interactive_mode():
+    '''Interactive mode'''
     length_input = int(input("Word length: "))
     guess = Guess(length_input, trie)
     results = [0 for i in range(length_input)]
@@ -148,4 +150,4 @@ def main():
         results = [int(user_input[i]) for i in range(len(user_input))]
 
 if  __name__=="__main__":
-    main()
+    interactive_mode()
