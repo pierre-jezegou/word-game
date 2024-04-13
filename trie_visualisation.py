@@ -108,12 +108,12 @@ def generate_complete_tikz_block_draw():
     return tikz_code
 
 
-dictionary = ["FOR", "HER", "HERE", "HEY", "HEAT", "FIRE", "FORCE", "FORWARD", "FORWARDER", "FIRM", "FIRSTLY", "FIRSTS", "FIREWORK", "HEIGHTY", "HEIGHTEEN"]
+dictionary = ["FOR", "HER", "HERE", "HEY", "HEAT", "FIRE", "FORCE", "FORWARD", "FORWARDER", "FIRM", "FIRSTLY", "FIRSTS", "FIREWORK", "HEIGHTY", "HEIGHTEEN", "FIREWALL"]
 
 trie = Trie()
 
 for word in dictionary:
     trie.insert_word(word=word)
 
-# print(generate_complete_tikz_block_search())
-print(generate_complete_tikz_block_draw())
+print(generate_complete_tikz_block_search())
+# print(generate_complete_tikz_block_draw())

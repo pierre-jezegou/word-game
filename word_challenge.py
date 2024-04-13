@@ -1,11 +1,13 @@
 '''Simulate word challenge'''
 import sys
 import time
+import json
 from prettytable import PrettyTable
 import numpy as np
 import matplotlib.pyplot as plt
 from tries import Trie, TrieNode
-from string_words_manipulation import *
+from additional_algorithms.string_words_manipulation import *
+from additional_algorithms.set_dictionary import *
 
 def automated_mode(trie: Trie):
     '''Simulate x times word_challenge (x given by user in cmd line)'''
@@ -28,6 +30,7 @@ def automated_mode(trie: Trie):
         elapsed_time = end_time - start_time
         results.append({
             "iteration": i,
+            "initial_word_length": len(letters),
             "cpu_time": elapsed_time,
             "word_counter": word_counter,
         })
@@ -36,10 +39,11 @@ def automated_mode(trie: Trie):
 
 def print_results_in_table(results: list[dict[int|float]]) -> None:
     '''Print results in pretty table'''
-    table = PrettyTable(["Iteration", "CPU time", "Word counter"])
+    table = PrettyTable(["Iteration", "Initial length", "CPU time", "Word counter"])
     len_results = len(results)
     for i, result in enumerate(results):
-        table.add_row([result["iteration"], 
+        table.add_row([result["iteration"],
+                       result["initial_word_length"] ,
                        result["cpu_time"],
                        result["word_counter"]
                        ],
@@ -47,7 +51,7 @@ def print_results_in_table(results: list[dict[int|float]]) -> None:
 
     mean_cpu_time = np.mean([result["cpu_time"] for result in results])
     mean_word_counter = np.mean([result["word_counter"] for result in results])
-    table.add_row(["AVG:", mean_cpu_time, mean_word_counter])
+    table.add_row(["AVG:", None,mean_cpu_time, mean_word_counter])
     print(table)
 
 
@@ -102,15 +106,19 @@ def _display_performances(samples: int) -> None:
     
     print(processed_results)
 
+def save_results_json(results:list[dict[str|float]]) -> None:
+    with open('exports/results_'+str(time.time())+".json", 'w') as f:
+        json_dump = json.dump(results, f, indent=4)
+
+
 if __name__ == "__main__":
-    dictionary = ["FOR", "HER", "HERE", "HEY", "HEAT", "FIRE", "FORCE", "FORWARD", "FORWARDER", "FIRM", "FIRSTLY", "FIRSTS", "FIREWORK", "HEIGHTY", "HEIGHTEEN"]
+    # dictionary = ["FOR", "HER", "HERE", "HEY", "HEAT", "FIRE", "FORCE", "FORWARD", "FORWARDER", "FIRM", "FIRSTLY", "FIRSTS", "FIREWORK", "HEIGHTY", "HEIGHTEEN"]
 
-    trie = Trie()
-
-    for word in dictionary:
-        trie.insert_word(word=word)
+    # trie = Trie()
+    trie = build_trie('dictionary.txt')
     
     results = automated_mode(trie)
+    save_results_json(results)
 
     
     print_results_in_table(results)

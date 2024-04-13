@@ -69,12 +69,9 @@ class Trie():
         '''Return words built by given letters'''
         counter = 0
         words = []
-        for i in range(1, len(letters_list) + 1):
+        for i in range(3, len(letters_list) + 1):
             for permutation in permutations(letters_list, i):
-                word = ''.join(permutation).upper()
-                # TODO Pay attention to the alphabet used in the dictionary.txt
-                if len(word) <= 3:
-                    continue
+                word = ''.join(permutation)
                 if self.search(word):
                     counter += 1
                     words.append(word)

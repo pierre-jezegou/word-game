@@ -1,6 +1,7 @@
 '''Implement guesser part of the wordle game'''
 from random import choice, randint
 from tries import Trie
+import time
 
 ALPHABET = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
 
@@ -144,9 +145,16 @@ def keeper_interactive_mode(dictionary_trie: Trie,
     results = [0 for i in range(length_input)]
     while results != [2 for i in range(length_input)]:
         print("-"*10)
+        start_time = time.time()
         print(guess.new_guess(results))
+        end_time = time.time()
+        print("\tGuess time:", end_time - start_time)
         print("\tBlocked letters: ", guess.bad_letters)
         print("\tBad position letters: ", guess.incorrect_position_letters)
         print("\tResults: ", results)
         user_input = input("Compute score: ")
         results = [int(user_input[i]) for i in range(len(user_input))]
+
+    
+        
+        
