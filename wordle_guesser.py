@@ -38,7 +38,7 @@ def guesser_mode(trie: Trie,
                 % (secret, attempts))
 
         elif attempts == max_attempts:
-            print(f"Try again... too many attempts.\nWell done, the word was %s." % secret)
+            print(f"Try again... too many attempts.\nThe word was %s." % secret)
 
         else:
             print(''.join(map(str, result_array)))

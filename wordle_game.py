@@ -14,10 +14,10 @@ MAX_GUESSES = 10
 alphabet = set_alphabet(DICTIONARY_PATH)
 dictionary_trie = build_trie(DICTIONARY_PATH)
 
-AUTOMATIC_MODE = True
+AUTOMATIC_MODE = False
 AUTOMATIC_MODE_GENERATOR = True
-GUESSER = False
-KEEPER = True
+GUESSER = True
+KEEPER = False
 
 
 if __name__=="__main__":
@@ -36,7 +36,7 @@ if __name__=="__main__":
         guesser_automatic_mode()
     else :
         if GUESSER:
-            guesser_mode(dictionary_trie)
+            guesser_mode(dictionary_trie, 3)
         if KEEPER:
             keeper_interactive_mode(dictionary_trie, alphabet)
 
