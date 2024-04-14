@@ -6,7 +6,7 @@ from prettytable import PrettyTable
 import numpy as np
 from tries import Trie
 from additional_algorithms.string_words_manipulation import *
-from additional_algorithms.set_dictionary import *
+from set_dictionary import *
 
 def automated_mode(trie: Trie, length: int = 0):
     '''Simulate x times word_challenge (x given by user in cmd line)'''
@@ -130,12 +130,12 @@ def save_results_json(results:list[dict[str|float]]) -> None:
 
 
 
-MODE_AUTO = False
+MODE_AUTO = True
 
 if __name__ == "__main__":
     trie = build_trie('dictionary.txt')
     if MODE_AUTO:
-        results = automated_mode(trie, 9)
+        results = automated_mode(trie)
     else:
         results = manual_mode(trie, ['f', 'o', 'r', 'c', 'e'])
     save_results_json(results)

@@ -1,0 +1,4202 @@
+[
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.009753227233886719
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.016968965530395508
+    },
+    {
+        "solved": true,
+        "attempts": 8,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.005337953567504883
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.007711887359619141
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.010287761688232422
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.004302978515625
+    },
+    {
+        "solved": true,
+        "attempts": 8,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.007524013519287109
+    },
+    {
+        "solved": true,
+        "attempts": 7,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.008767843246459961
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.0024008750915527344
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.005754232406616211
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.00735020637512207
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.005043983459472656
+    },
+    {
+        "solved": true,
+        "attempts": 2,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.0013649463653564453
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.03127288818359375
+    },
+    {
+        "solved": true,
+        "attempts": 8,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.01111602783203125
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.01580190658569336
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.0060520172119140625
+    },
+    {
+        "solved": true,
+        "attempts": 9,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.00345611572265625
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.02581000328063965
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.001767873764038086
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.0007007122039794922
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.005589962005615234
+    },
+    {
+        "solved": true,
+        "attempts": 7,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.010464191436767578
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.026259899139404297
+    },
+    {
+        "solved": true,
+        "attempts": 2,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.001127004623413086
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.004247903823852539
+    },
+    {
+        "solved": true,
+        "attempts": 7,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.0015947818756103516
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.0020568370819091797
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.013229131698608398
+    },
+    {
+        "solved": true,
+        "attempts": 7,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.0061647891998291016
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.0014388561248779297
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.00500178337097168
+    },
+    {
+        "solved": true,
+        "attempts": 7,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.005711078643798828
+    },
+    {
+        "solved": true,
+        "attempts": 7,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.00436091423034668
+    },
+    {
+        "solved": true,
+        "attempts": 7,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.026233911514282227
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.00741124153137207
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.010235786437988281
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.0005502700805664062
+    },
+    {
+        "solved": true,
+        "attempts": 7,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.010914087295532227
+    },
+    {
+        "solved": true,
+        "attempts": 7,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.01743292808532715
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.0023229122161865234
+    },
+    {
+        "solved": true,
+        "attempts": 8,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.011070966720581055
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.006040811538696289
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.012347936630249023
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.0072100162506103516
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.0020639896392822266
+    },
+    {
+        "solved": true,
+        "attempts": 10,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.00523686408996582
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.0034132003784179688
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.00557398796081543
+    },
+    {
+        "solved": true,
+        "attempts": 7,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.0044231414794921875
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.006338834762573242
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.0038268566131591797
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.007549762725830078
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.014564752578735352
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.00977015495300293
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.00290679931640625
+    },
+    {
+        "solved": true,
+        "attempts": 8,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.005090951919555664
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.001837015151977539
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.01519012451171875
+    },
+    {
+        "solved": true,
+        "attempts": 7,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.0036859512329101562
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.0017189979553222656
+    },
+    {
+        "solved": true,
+        "attempts": 2,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.0019469261169433594
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.007889032363891602
+    },
+    {
+        "solved": true,
+        "attempts": 10,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.0012230873107910156
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.002938985824584961
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.011023998260498047
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.002498149871826172
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.009011983871459961
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.0061223506927490234
+    },
+    {
+        "solved": true,
+        "attempts": 7,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.008794069290161133
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.009645700454711914
+    },
+    {
+        "solved": true,
+        "attempts": 7,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.0053288936614990234
+    },
+    {
+        "solved": true,
+        "attempts": 7,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.01287388801574707
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.005669116973876953
+    },
+    {
+        "solved": true,
+        "attempts": 8,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.002899169921875
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.005461931228637695
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.0067441463470458984
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.0019230842590332031
+    },
+    {
+        "solved": true,
+        "attempts": 7,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.011169910430908203
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.006324052810668945
+    },
+    {
+        "solved": true,
+        "attempts": 8,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.0022132396697998047
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.00718379020690918
+    },
+    {
+        "solved": true,
+        "attempts": 2,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.0008981227874755859
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.002624034881591797
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.0006136894226074219
+    },
+    {
+        "solved": true,
+        "attempts": 2,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.013157844543457031
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.004708051681518555
+    },
+    {
+        "solved": true,
+        "attempts": 8,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.005953073501586914
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.004889965057373047
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.006902933120727539
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.0034301280975341797
+    },
+    {
+        "solved": true,
+        "attempts": 7,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.00511479377746582
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.01270294189453125
+    },
+    {
+        "solved": true,
+        "attempts": 2,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.0028798580169677734
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.0018739700317382812
+    },
+    {
+        "solved": true,
+        "attempts": 2,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.0021877288818359375
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.012958049774169922
+    },
+    {
+        "solved": true,
+        "attempts": 7,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.002202272415161133
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.006106853485107422
+    },
+    {
+        "solved": true,
+        "attempts": 7,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.017256975173950195
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.004570960998535156
+    },
+    {
+        "solved": true,
+        "attempts": 10,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.021728038787841797
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.004051923751831055
+    },
+    {
+        "solved": true,
+        "attempts": 8,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.01466512680053711
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.012336015701293945
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.007118701934814453
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.0027518272399902344
+    },
+    {
+        "solved": true,
+        "attempts": 7,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.17139601707458496
+    },
+    {
+        "solved": true,
+        "attempts": 8,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.0030829906463623047
+    },
+    {
+        "solved": true,
+        "attempts": 8,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.01102590560913086
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.010518074035644531
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.0026786327362060547
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.0023069381713867188
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.028502941131591797
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.004081249237060547
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.0037660598754882812
+    },
+    {
+        "solved": true,
+        "attempts": 8,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.0017993450164794922
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.0060138702392578125
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.014995813369750977
+    },
+    {
+        "solved": true,
+        "attempts": 7,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.008918046951293945
+    },
+    {
+        "solved": true,
+        "attempts": 7,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.002834796905517578
+    },
+    {
+        "solved": true,
+        "attempts": 7,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.007848024368286133
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.006273984909057617
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.013671875
+    },
+    {
+        "solved": true,
+        "attempts": 8,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.0024330615997314453
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.003963947296142578
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.010730981826782227
+    },
+    {
+        "solved": true,
+        "attempts": 7,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.008624792098999023
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.01788496971130371
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.006607770919799805
+    },
+    {
+        "solved": true,
+        "attempts": 2,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.00362396240234375
+    },
+    {
+        "solved": true,
+        "attempts": 8,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.008402824401855469
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.0018658638000488281
+    },
+    {
+        "solved": true,
+        "attempts": 8,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.008854866027832031
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.007342100143432617
+    },
+    {
+        "solved": true,
+        "attempts": 8,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.004664897918701172
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.0044841766357421875
+    },
+    {
+        "solved": true,
+        "attempts": 8,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.0026290416717529297
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.0050427913665771484
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.10775399208068848
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.004148006439208984
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.0012431144714355469
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.004435062408447266
+    },
+    {
+        "solved": true,
+        "attempts": 8,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.0018031597137451172
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.011328697204589844
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.0023729801177978516
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.002889871597290039
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.0015621185302734375
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.048027753829956055
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.01047515869140625
+    },
+    {
+        "solved": true,
+        "attempts": 8,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.0026509761810302734
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.012764930725097656
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.0011539459228515625
+    },
+    {
+        "solved": true,
+        "attempts": 7,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.017444133758544922
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.003179788589477539
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.0027022361755371094
+    },
+    {
+        "solved": true,
+        "attempts": 2,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.004366874694824219
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.010509014129638672
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.012128591537475586
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.0013477802276611328
+    },
+    {
+        "solved": true,
+        "attempts": 2,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.009754180908203125
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.01664590835571289
+    },
+    {
+        "solved": true,
+        "attempts": 7,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.007353067398071289
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.0043828487396240234
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.011935949325561523
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.008282184600830078
+    },
+    {
+        "solved": true,
+        "attempts": 10,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.0010311603546142578
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.0014920234680175781
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.005124807357788086
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.005116939544677734
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.006470918655395508
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.02074885368347168
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.005509138107299805
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.02039504051208496
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.003014802932739258
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.0045969486236572266
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.005408048629760742
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.0045239925384521484
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.005491971969604492
+    },
+    {
+        "solved": true,
+        "attempts": 8,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.006344318389892578
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.002699136734008789
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.007603883743286133
+    },
+    {
+        "solved": false,
+        "attempts": 10,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.006109952926635742
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.023945093154907227
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.0024871826171875
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.001958131790161133
+    },
+    {
+        "solved": true,
+        "attempts": 7,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.005407094955444336
+    },
+    {
+        "solved": true,
+        "attempts": 7,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.005347728729248047
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.01204824447631836
+    },
+    {
+        "solved": true,
+        "attempts": 7,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.02978205680847168
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.0026149749755859375
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.009853839874267578
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.0020029544830322266
+    },
+    {
+        "solved": true,
+        "attempts": 7,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.00859379768371582
+    },
+    {
+        "solved": true,
+        "attempts": 2,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.0005209445953369141
+    },
+    {
+        "solved": true,
+        "attempts": 7,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.009196996688842773
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.008140087127685547
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.004067182540893555
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.020755290985107422
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 3,
+        "cpu_time": 0.003962993621826172
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.18921113014221191
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.10471606254577637
+    },
+    {
+        "solved": true,
+        "attempts": 8,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.03281521797180176
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.059545040130615234
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.009850740432739258
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.10845804214477539
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.07389211654663086
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.0841069221496582
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.02691483497619629
+    },
+    {
+        "solved": true,
+        "attempts": 7,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.1019589900970459
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.17110013961791992
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.12525367736816406
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.08804559707641602
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.14872074127197266
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.0650181770324707
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.05854511260986328
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.021645069122314453
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.11467814445495605
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.11119794845581055
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.08722615242004395
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.04643893241882324
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.04596400260925293
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.018878936767578125
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.062134742736816406
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.3572652339935303
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.012128114700317383
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.14057493209838867
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.19110608100891113
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.05022597312927246
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.11408615112304688
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.048074960708618164
+    },
+    {
+        "solved": true,
+        "attempts": 7,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.11239981651306152
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.013620853424072266
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.046996116638183594
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.04937005043029785
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.013288021087646484
+    },
+    {
+        "solved": true,
+        "attempts": 7,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.07451510429382324
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.06786203384399414
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.01494908332824707
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.12095904350280762
+    },
+    {
+        "solved": true,
+        "attempts": 7,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.08653473854064941
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.12094593048095703
+    },
+    {
+        "solved": true,
+        "attempts": 2,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.0156857967376709
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.025121212005615234
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.03563690185546875
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.01430511474609375
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.007272005081176758
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.13236498832702637
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.11138105392456055
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.03870511054992676
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.042525291442871094
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.15544509887695312
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.025740861892700195
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.011299848556518555
+    },
+    {
+        "solved": true,
+        "attempts": 7,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.10055899620056152
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.14815926551818848
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.04316115379333496
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.061157941818237305
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.021780014038085938
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.006352901458740234
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.11696887016296387
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.022182941436767578
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.05528378486633301
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.14702796936035156
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.055552005767822266
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.03429698944091797
+    },
+    {
+        "solved": true,
+        "attempts": 2,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.0314028263092041
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.05466485023498535
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.16048502922058105
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.0876779556274414
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.051698923110961914
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.06778979301452637
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.08304429054260254
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.12983202934265137
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.08334898948669434
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.038635969161987305
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.036492109298706055
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.05487418174743652
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.10326123237609863
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.03216195106506348
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.08041787147521973
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.027445077896118164
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.06376981735229492
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.08182597160339355
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.05724692344665527
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.018889904022216797
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.0839841365814209
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.061749935150146484
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.07671689987182617
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.02223515510559082
+    },
+    {
+        "solved": true,
+        "attempts": 2,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.11308693885803223
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.0680079460144043
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.05331707000732422
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.09041523933410645
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.12755107879638672
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.061292171478271484
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.05447793006896973
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.015904903411865234
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.03893089294433594
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.04726719856262207
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.005741119384765625
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.059043169021606445
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.016483068466186523
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.3108947277069092
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.04175901412963867
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.12862110137939453
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.008522987365722656
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.015317916870117188
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.01683831214904785
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.471790075302124
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.022532224655151367
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.08640193939208984
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.027902841567993164
+    },
+    {
+        "solved": true,
+        "attempts": 2,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.042308807373046875
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.008260965347290039
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.06684303283691406
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.07204794883728027
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.031203031539916992
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.1482701301574707
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.09437704086303711
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.01986980438232422
+    },
+    {
+        "solved": true,
+        "attempts": 7,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.028120040893554688
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.019443988800048828
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.0319669246673584
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.05541086196899414
+    },
+    {
+        "solved": true,
+        "attempts": 7,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.04919886589050293
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.0028171539306640625
+    },
+    {
+        "solved": true,
+        "attempts": 7,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.2253129482269287
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.04418015480041504
+    },
+    {
+        "solved": true,
+        "attempts": 7,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.05515289306640625
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.12154412269592285
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.13586711883544922
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.07314705848693848
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.014993906021118164
+    },
+    {
+        "solved": true,
+        "attempts": 2,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.026192188262939453
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.14548492431640625
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.009348869323730469
+    },
+    {
+        "solved": true,
+        "attempts": 7,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.06601715087890625
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.04119396209716797
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.04175686836242676
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.07245993614196777
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.06669807434082031
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.03473496437072754
+    },
+    {
+        "solved": true,
+        "attempts": 7,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.04201197624206543
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.10717988014221191
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.0366361141204834
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.061463117599487305
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.08179116249084473
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.03664422035217285
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.0879201889038086
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.07045698165893555
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.010770082473754883
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.03343987464904785
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.027421951293945312
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.023933887481689453
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.03640294075012207
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.01819014549255371
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.05366706848144531
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.008903980255126953
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.09366297721862793
+    },
+    {
+        "solved": true,
+        "attempts": 7,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.02504897117614746
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.09058380126953125
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.062317848205566406
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.07652997970581055
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.09112906455993652
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.05639386177062988
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.004238128662109375
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.042649030685424805
+    },
+    {
+        "solved": true,
+        "attempts": 2,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.06001996994018555
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.031481027603149414
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.1667780876159668
+    },
+    {
+        "solved": true,
+        "attempts": 9,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.0359799861907959
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.08752799034118652
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.011250019073486328
+    },
+    {
+        "solved": true,
+        "attempts": 7,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.008523941040039062
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.16321992874145508
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.18937993049621582
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.023508071899414062
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.08318018913269043
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.029484033584594727
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.06731510162353516
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.011636018753051758
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.046045780181884766
+    },
+    {
+        "solved": true,
+        "attempts": 7,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.057686805725097656
+    },
+    {
+        "solved": true,
+        "attempts": 8,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.024151086807250977
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.0886530876159668
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.04115104675292969
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.053076982498168945
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.18588995933532715
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.04405999183654785
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.07729220390319824
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.045163631439208984
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.039811134338378906
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.09015989303588867
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.023401975631713867
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.041358232498168945
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.0448000431060791
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.019446134567260742
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.05808711051940918
+    },
+    {
+        "solved": true,
+        "attempts": 7,
+        "max_attempts": 10,
+        "size": 4,
+        "cpu_time": 0.060060977935791016
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.9649510383605957
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 3.305299758911133
+    },
+    {
+        "solved": true,
+        "attempts": 2,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.6465859413146973
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 1.45517897605896
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 2.0041308403015137
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 1.7273449897766113
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 2.6424078941345215
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 2.08191180229187
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.09951615333557129
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.49008989334106445
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.7452731132507324
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 2.088348388671875
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 2.2583420276641846
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 1.872668981552124
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 1.5465106964111328
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.9383177757263184
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.6641342639923096
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.46217918395996094
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.5428149700164795
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.7969050407409668
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 1.14182710647583
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 5.333833932876587
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 4.53433084487915
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 1.4274699687957764
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.7839019298553467
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 2.2711949348449707
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 1.468203067779541
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.2674679756164551
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.1737041473388672
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 2.461667776107788
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 1.155379056930542
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.11137628555297852
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 2.5688908100128174
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.161301851272583
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 1.3589026927947998
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 8.326630115509033
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 2.658925771713257
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.7447118759155273
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 10.25441598892212
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.3527538776397705
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.4569721221923828
+    },
+    {
+        "solved": true,
+        "attempts": 2,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.20455193519592285
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.45786476135253906
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.6918578147888184
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 3.091308116912842
+    },
+    {
+        "solved": true,
+        "attempts": 2,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.3527557849884033
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 1.219820261001587
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.2185831069946289
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 2.540327787399292
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.4935321807861328
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 2.6708929538726807
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.23898029327392578
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.8211088180541992
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.7898678779602051
+    },
+    {
+        "solved": true,
+        "attempts": 2,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.6814720630645752
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 1.5795621871948242
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 1.3424592018127441
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.6685380935668945
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 1.2456369400024414
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 2.869871139526367
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.45618581771850586
+    },
+    {
+        "solved": true,
+        "attempts": 7,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.32706689834594727
+    },
+    {
+        "solved": true,
+        "attempts": 2,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.9903082847595215
+    },
+    {
+        "solved": true,
+        "attempts": 2,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.18613982200622559
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.3220069408416748
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 2.236375093460083
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.3423452377319336
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 1.9320809841156006
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.6630537509918213
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 2.434993267059326
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.18425393104553223
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.5138058662414551
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.5781240463256836
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 2.136892318725586
+    },
+    {
+        "solved": true,
+        "attempts": 2,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.3150761127471924
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.34082722663879395
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.5134220123291016
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 1.0678699016571045
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 1.4873809814453125
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 1.6970710754394531
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 2.669264078140259
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 1.3764688968658447
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.28109002113342285
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 1.0641980171203613
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.3648529052734375
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.7692999839782715
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 2.607524871826172
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.5169401168823242
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.17283105850219727
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.4628927707672119
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.4249851703643799
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.8816030025482178
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.19115281105041504
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 2.269224166870117
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 1.0479159355163574
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 4.150101900100708
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.2789158821105957
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 3.6579337120056152
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 1.3354761600494385
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.6754839420318604
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.7509279251098633
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.6982090473175049
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.11501598358154297
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.1422421932220459
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 3.2274091243743896
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.2576730251312256
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 1.7127108573913574
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 1.4244389533996582
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 1.6721930503845215
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 2.4103569984436035
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.4456188678741455
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 1.2128970623016357
+    },
+    {
+        "solved": true,
+        "attempts": 2,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 1.9478821754455566
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 1.821065902709961
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 2.426738977432251
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 1.2776529788970947
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 1.0786008834838867
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.02692890167236328
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 1.8676187992095947
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.695986270904541
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 1.579773187637329
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.25524401664733887
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 2.0127761363983154
+    },
+    {
+        "solved": true,
+        "attempts": 2,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.14027690887451172
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 1.052962064743042
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.6449260711669922
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 3.505340814590454
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 1.0535318851470947
+    },
+    {
+        "solved": true,
+        "attempts": 2,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.48690223693847656
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 2.6680920124053955
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.1534428596496582
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 4.239537954330444
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.18752217292785645
+    },
+    {
+        "solved": true,
+        "attempts": 2,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.21119475364685059
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.23385906219482422
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 2.784087896347046
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.8512740135192871
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 12.057065963745117
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 3.173220157623291
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.48214030265808105
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 3.2281720638275146
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.2939901351928711
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 1.212188959121704
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.3006751537322998
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 1.2487478256225586
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.903832197189331
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 10.621026992797852
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.24536705017089844
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.854560136795044
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.7958269119262695
+    },
+    {
+        "solved": true,
+        "attempts": 2,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.8914370536804199
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 1.0181498527526855
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 5.652245998382568
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.2964780330657959
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.8825137615203857
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.08388781547546387
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 2.779561996459961
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 2.497371196746826
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.37415385246276855
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.8434360027313232
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 1.019653081893921
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 2.6196200847625732
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.08504700660705566
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.07438421249389648
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 2.218400001525879
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 1.0079009532928467
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 1.5998411178588867
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 1.4025688171386719
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 1.5073320865631104
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 1.8669300079345703
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 1.303800106048584
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 3.9689218997955322
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 1.325350046157837
+    },
+    {
+        "solved": true,
+        "attempts": 2,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 1.5999479293823242
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.7226769924163818
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.3891479969024658
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.22807598114013672
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.4390230178833008
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.6374671459197998
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 1.0467720031738281
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 1.6956899166107178
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.5297937393188477
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.34389781951904297
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.21491074562072754
+    },
+    {
+        "solved": true,
+        "attempts": 7,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.238936185836792
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 2.0767769813537598
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.5743739604949951
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 1.072559118270874
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.9976191520690918
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 3.09961199760437
+    },
+    {
+        "solved": true,
+        "attempts": 6,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 3.643630027770996
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.648087739944458
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.6548659801483154
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.5539379119873047
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 2.342359781265259
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 2.1246588230133057
+    },
+    {
+        "solved": true,
+        "attempts": 5,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.8895983695983887
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 1.3019609451293945
+    },
+    {
+        "solved": true,
+        "attempts": 3,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 0.4912261962890625
+    },
+    {
+        "solved": true,
+        "attempts": 4,
+        "max_attempts": 10,
+        "size": 5,
+        "cpu_time": 4.006426095962524
+    }
+]

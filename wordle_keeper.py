@@ -155,6 +155,11 @@ def keeper_interactive_mode(dictionary_trie: Trie,
         user_input = input("Compute score: ")
         results = [int(user_input[i]) for i in range(len(user_input))]
 
-    
+# def keeper_automatic_mode(guess: Guess,
+#                           dictionary_trie: Trie,
+#                           result_str: str,
+#                           alphabet: set[str] | list[str] = ALPHABET
+#                           ) -> str:
+#     guess.new_guess()
         
         
