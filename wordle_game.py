@@ -1,9 +1,9 @@
 ''' Combine guesser, keeper and automatic modes'''
 
+import json
 from wordle_guesser import *
 from wordle_keeper import *
 from set_dictionary import *
-import json
 # from typing import Tuple
 
 

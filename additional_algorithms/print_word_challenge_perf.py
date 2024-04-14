@@ -31,7 +31,7 @@ def gather_informations_per_length(word_length: int,
 
 
 # print(gather_informations_per_length(6, get_json(filename), 'cpu_time'))
-def gather_all_informations(information) -> str:
+def gather_all_informations(information, filename) -> str:
     points = ''
     for i in range(11):
         word_length, info = gather_informations_per_length(i, get_json(filename), information)
@@ -55,7 +55,7 @@ def print_infos_in_tikz(needed_informations = list[str],
 
     context = {
         'legend': r'\verb|%s|' % legend,
-        'points': gather_all_informations(legend)
+        'points': gather_all_informations(legend, filename)
     }
 
 
