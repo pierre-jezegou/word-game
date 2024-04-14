@@ -1,5 +1,4 @@
-'''Build tries'''
-# import tikzplotlib
+'''Build tries from Trie datastructure to tikz'''
 from tries import *
 
 HORIZONTAL_DISTORSION = 1

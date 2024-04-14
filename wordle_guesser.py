@@ -1,3 +1,4 @@
+''' The user act as a guesser - the programm gives scores for each letter'''
 from additional_algorithms.string_words_manipulation import *
 from tries import Trie
 from wordle_keeper import *

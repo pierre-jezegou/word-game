@@ -1,3 +1,7 @@
+''' Aim of this file :
+    - Manipulate strings and lists to extract usefull data
+    - Shuffle strings
+'''
 import random
 import re
 

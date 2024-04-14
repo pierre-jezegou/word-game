@@ -84,7 +84,7 @@ def print_results_in_table(results: list[dict[int|float]]) -> None:
 #                  cpu_time: float,
 #                  word_count: float,
 #                  length: int):
-        
+
 #         self.cpu_time: float    = cpu_time
 #         self.word_count: float  = word_count
 #         self.length: int        = length
@@ -105,12 +105,12 @@ def print_results_in_table(results: list[dict[int|float]]) -> None:
 #                             elapsed_time,
 #                             0, # TODO Change when game ready to return counter
 #                             len(letters)))
-    
+
 #     processed_results = {i: {
 #                            "cpu_time": [result.cpu_time for result in results if result.length == i],
 #                            "word_count": [result.word_count for result in results if result.length == i],
 #                            } for i in [result.length for result in results]}
-    
+
 #     # labels = [processed_results[i]["length"] for i in [result.length for result in results]]
 #     lengths = [result.length for result in results]
 #     mean_cpu_time = [np.mean(processed_results[i]["cpu_time"]) for i in [result.length for result in results]]
@@ -121,7 +121,7 @@ def print_results_in_table(results: list[dict[int|float]]) -> None:
 #     plt.scatter(lengths, mean_word_count, label="Word count")
 #     plt.legend()
 #     plt.show()
-    
+
 #     print(processed_results)
 
 def save_results_json(results:list[dict[str|float]]) -> None:

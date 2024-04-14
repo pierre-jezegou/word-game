@@ -1,4 +1,8 @@
-'''Interactions with dictionary'''
+'''Interactions with dictionary
+    - Build trie from dictionary file
+    - Set alphabet based on dictionary file
+    - Get frequency of each word length
+'''
 from tries import Trie
 
 def build_trie(file_path: str) -> Trie:

@@ -1,3 +1,5 @@
+''' Combine guesser, keeper and automatic modes'''
+
 from wordle_guesser import *
 from wordle_keeper import *
 from set_dictionary import *
@@ -37,7 +39,7 @@ if __name__=="__main__":
             guesser_mode(dictionary_trie)
         if KEEPER:
             keeper_interactive_mode(dictionary_trie, alphabet)
-    
-    
+
+
     with open('exports/automatic_wordle.json', 'w') as f:
         json.dump(results, f)

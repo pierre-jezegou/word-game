@@ -1,3 +1,6 @@
+''' Aim of this file :
+    - Use json export from word_challenge to plot performances charts/plots
+'''
 from wordle_keeper import *
 from tries import *
 from set_dictionary import *
@@ -38,7 +41,7 @@ class TikzObject():
 
         with open(self.template_path, 'r') as f:
             template_content = f.read()
-        
+
         template = Template(template_content)
 
         context = {
@@ -56,6 +59,6 @@ objects = [
     TikzObject(object=trie, template_path=TEMPLATE_PATH),
     TikzObject(object=trie_node, template_path=TEMPLATE_PATH)
 ]
-    
+
 for object in objects:
     object.save_drawing()
