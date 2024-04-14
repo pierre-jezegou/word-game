@@ -49,7 +49,7 @@
 \usepackage{listings}
 \lstdefinestyle{mystyle}{
   backgroundcolor=\color{gray!10},
-  stringstyle=\color{green!60!black!80},
+  stringstyle=\color{green!50!black},
   keywordstyle=\color{fib_red},
   numberstyle=\tiny\color{fib_gray},
   commentstyle=\color{blue_upc},
@@ -89,13 +89,13 @@
 \newenvironment{framed}[3]{
     \vspace*{0.5em}
     \begin{mybox}{#3!10}
-        \textbf{#1} :\hfill \textit{#2}\\
+        \textbf{#1}:\hfill \textit{#2}\\
         \hrule\vspace*{1em}
 }
 {\end{mybox}}
 
 \newenvironment{exercise_description}[1]{
-    \begin{framed}{Exercice description}{#1}{orange}
+    \begin{framed}{Exercise description}{#1}{orange}
 }
 {\end{framed}}
 
@@ -103,3 +103,7 @@
     \begin{framed}{Summary}{Section \thesection}{blue}
 }
 {\end{framed}}
+
+
+\newcommand{\colorverb}[2]{\textcolor{#1}{\texttt{\detokenize{#2}}}}
+\newcommand{\type}[1]{\colorverb{green!50!black}{#1}}

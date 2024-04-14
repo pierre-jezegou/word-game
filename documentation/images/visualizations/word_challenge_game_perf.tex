@@ -2,19 +2,14 @@
     \centering
     \begin{tikzpicture}
         \begin{axis}[
-            x tick label style={
-                /pgf/number format/1000 sep=},
-            ylabel=CPU time (s),
-            xlabel=Attempt,
-            % ymode=log,
-            enlargelimits=0.05,
-            % legend style={at={(0.5,-0.1)},
-            % anchor=north,legend columns=-1},
-            ybar interval=0.7,
-        ]
-        \addplot 
+            xlabel=Word length,
+            ylabel=\verb|cpu_time|,
+            xtick=data,
+            legend style={at={(0.05,0.95)},anchor=north west}
+            ]
+        \addplot[ybar, bar width=20pt, fill=blue!20]
             coordinates {
-                (3, 5.6425730387369794e-06)(4, 1.9073486328125e-05)(5, 8.714900297277113e-05)(6, 0.0004047552744547526)(7, 0.0025780797004699707)(8, 0.02060066952424891)(9, 0.18696789308027786)(10, 1.9171473185221355)
+                (3, 9.238719940185547e-06)(4, 2.132143293108259e-05)(5, 8.704112126277044e-05)(6, 0.0004073193198756168)(7, 0.0026500152267572535)(8, 0.020409859716892242)(9, 0.18663626367395575)(10, 1.9177763095268836)
                 };
         \legend{ \verb|cpu_time| } 
         \end{axis}

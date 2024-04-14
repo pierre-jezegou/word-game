@@ -3,7 +3,7 @@
 '''
 import math
 
-MAX_LENGTH = 25
+MAX_LENGTH = 17
 MIN_LENGTH = 3
 
 def complexity(m: int, k: int) -> int:

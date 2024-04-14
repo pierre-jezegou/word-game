@@ -14,11 +14,6 @@
 
 \fancyfoot[R]{\raisebox{-0.5\baselineskip}{\includegraphics[scale=0.25]{images/logos/upc_logo.jpeg}}}
 
-
-\newcommand{\colorverb}[2]{\textcolor{#1}{\texttt{\detokenize{#2}}}}
-\newcommand{\type}[1]{\colorverb{green!50!black}{#1}}
-
-
 \begin{document}
 \include{includes/000-cover_page}
 \tableofcontents
@@ -32,8 +27,11 @@ The Trie class implements the operations and building procedure for the trie. It
 The program also includes functions to generate TikZ code for visualizing the trie. The \verb|generate_tikz_trie| function generates TikZ code to visualize the trie structure, while the \verb|generate_search_path| function generates TikZ code to visualize the search path for a given word in the trie.
 Finally, the program creates an instance of the Trie class, inserts words from a given dictionary into the trie, and generates TikZ code to visualize the trie with a specific search word highlighted.\\
 
-L'ensemble du code source (programmes, documentation et générateurs d'image) est disponible dans le respository GitHub dédié au projet : \url{https://github.com/pierre-jezegou/word-game}
+All the source code (programs, documentation and image generators) is available in the GitHub respository dedicated to the project: \url{https://github.com/pierre-jezegou/word-game}\\
 
+For performance testing of algorithms, we use a MacBook Air with the M2 processor. This hardware provides ample computing power to execute our algorithms efficiently, ensuring swift analysis of their performance.
+
+As recommended, this report has been written in \LaTeX.
 
 \section{Word Challenge}
 \begin{exercise_description}{Word challenge}
@@ -47,31 +45,45 @@ L'ensemble du code source (programmes, documentation et générateurs d'image) e
 \end{exercise_description}
 
 
-\subsection{Implement \texttt{trie} data structure}
-Dans un premier temps, nous choisissons d'appuyer cet exercice sur une structure bien connue dans l'utilisation de chaînes de caractère : les tries. Cela nous permettra ainsi de stocker les mots de manière structurée et de les récupérer avec une complexité moindre (justifée plus tard).\\
+\subsection{Implement \type{trie} data structure}
+To begin with, we've chosen to base this exercise on a well-known string structure: tries. This will enable us to store words in a structured way and retrieve them with less complexity (justified later).\\
+This structure is based on two classes, \textit{Python}, to model the trie itself (\type{Trie}) and the nodes of the \textit{trie} \type{TrieNode}. Each of these two data structures will be endowed with parameters and methods enabling the job to be solved in an optimal way.
 
-Cette structure s'appuiera sur deux classes \textit{Python} pour modéliser le trie lui même (\type{Trie}) et les noeuds du \textit{trie} \type{TrieNode}. Chacune de ces deux structures de données seront dotées de paramètres et de méthodes permettant la résolution du travail de manière optimale.
 
-\subsubsection{\texttt{TrieNode} data structure}
+\subsubsection{\type{TrieNode} data structure}
 \input{images/visualizations/class_TrieNode}
-Comme vu en cours, chaque noeud peut-être vu comme un espace de stockage avec différentes propriétés comprenant zéro, un ou plusieurs enfants chacun. Il est donc nécessaire d'implémenter cette structure avec python. Voici ci-après (en figure \ref{class:TrieNode}) une représentation de la structure ainsi créée.
+As seen in the course, each node can be seen as a storage space with different properties, including zero, one or more children each. It is therefore necessary to implement this structure with python. Below (in figure \ref{class:TrieNode}) is a representation of the resulting structure.\\
 
-Premièrement, décrivons rapidement les attributs de cette structure :
+First, let's quickly describe the attributes of this structure:
 \begin{enumerate}
     \setcounter{enumi}{-1}
-    \item \verb|children| (type: \type{dict[TrieNode]}) : dictionnaire python comprenant l'ensemble des noeuds enfants du noeud en question. C'est un dict car pour accéder à chaque noeud suivant, on appelle la valeur de cette lettre \verb|trie_node.children['A']| par exemple.
-    \item \verb|is_end_word| (type: \type{int}) : renvoie \verb|True| si il s'agit d'une feuille du trie.
-    \item \verb|value| (type: \type{str}): stocke la valeur du noeud pour permettre une utilisation facilitée par la suite
-    \item \verb|depth| (type: \type{int}) : cette propriété est utilisée dans le tracé automatique des arbres avec \textit{tikz}.
+    \item \verb|children| (type: \type{dict[TrieNode]}): Python dictionary containing all child nodes of the node in question. It's a dict because to access each subsequent node, we call the value of this letter \verb|trie_node.children['A']| for example.
+    \item \verb|is_end_word| (type: \type{int}): returns \verb|True| if it's a trie leaf.
+    \item \verb|value| (type: \type{str}): stores the node's value for easier use later.
+    \item \verb|depth| (type: \type{int}): this property is used in automatic tree plotting with \textit{tikz}.
 \end{enumerate}
 
-\subsubsection{\texttt{Trie} data structure}
+\subsubsection{\type{Trie} data structure}
 \input{images/visualizations/class_Trie}
+The structure of this data structure is relatively simple, and is based on what we've seen in class about tries. Indeed, the trie is defined by its root \textit{root}(type: \type{TrieNode}), and then has several methods: a search method \verb|search|, a construction method \verb|insert_word|.\\
+The last function \verb|word_game_main_function| is the one used in the rest of the exercise to test all possible variations (permutations) from a given set of letters.\\
+
+This can then be used to plot various tries, including the one created from the following data:
+\begin{lstlisting}[language=Python, caption=Sample data to create trie]
+dictionary = ["FOR", "HER", "HERE", "HEY", "HEAT", "FIRE", "FORCE", "FORWARD", "FORWARDER", "FIRM", "FIRSTLY", "FIRSTS", "FIREWORK", "HEIGHTY", "HEIGHTEEN", "FIREWALL"]
+\end{lstlisting}
+\small{\input{includes/tries_draw.tex}}
+
+The preceding diagram was created by a parallel program (developed in the appendices) that allows visual trees to be created from a trie. Please note that this is only legible for small trees (beyond that, the branches overlap). This illustration has enabled me to understand all the features implemented and to check that all states are easily correct.
+
+You can see how the tries finds a word visually. This function has been coded to transform \type{trie} into \textit{tikz}. In this way, the word can be retrieved letter by letter by browsing the trie.\\
+
+\input{includes/tries.tex}
 
 \subsection{Main counting function}
-J'ai choisi de ne pas restreindre le dictionnaire outre mesure en forçant par exemple une suppression des accents, une casse spéciale pour les lettres... En effet, le \textit{trie} étant construit à partir d'un dictionnaire donné et que ce dernier est également utilisé pour l'extraction et la validation des mots, tous les mots partagent les mêmes caractères.
+I've chosen not to restrict the dictionary too much, for example by forcing the deletion of accents, a special case for letters... Indeed, as the \textit{trie} is built from a given dictionary, and the latter is also used for word extraction and validation, all words share the same characters.
 
-\begin{lstlisting}[language=Python, caption=Python example]
+\begin{lstlisting}[language=Python, caption=Test all permutations]
 def word_game_main_function(self, letters_list: list[str]) -> tuple[int, list[str]]:
     '''Return words built by given letters'''
     counter = 0
@@ -84,29 +96,64 @@ def word_game_main_function(self, letters_list: list[str]) -> tuple[int, list[st
                 words.append(word)
     return counter, words
 \end{lstlisting}
-La ligne du programme \verb|permutations(letters_list , i)| permet de générer toutes les permutations possibles grâce à la lib \verb|permutations| de \verb|itertools| de longueur $i$. Attention neanmoins à la complexité de cette opération.\\
+
+The program line \verb|permutations(letters_list, i)| generates all possible permutations using the lib \verb|permutations| of \verb|itertools| of length $i$. Beware, however, of the complexity of this operation.\\
 
 Let say we have a word $W$ of $m$ letters.
 The number of subwords of length k in an m-letter word can be calculated using the combination formula. For a word of m letters, there are C(m, k) subwords of length k, where C(m, k) represents the number of combinations of m elements taken k to k. The formula for C(m, k) is :
 $$C(m, k) = \dfrac{m!}{k!(m - k)!}$$
 Therefore, the total number of possible subwords in a word of m letters is the sum of the number of subwords of each length:
-$$\text{Total number of subwords} = \sum_{k=3}^{m}C(m, k)$$
+\begin{equation}
+\text{Total number of subwords} = \sum_{k=3}^{m}C(m, k)
+\label{eq:number_of_combination}
+\end{equation}
 Please note that this approach starts counting word from 3 letters and includes the word itself (of length m).
 If you need a more specific answer, please provide the length m of the word you have and the more detailed context of what you mean by "subwords".
+\input{images/visualizations/theorical_calculation_time_combinations}
 
-Comme chaque mot généré passera dans la machine, il peut être intéressant de diminuer au maximum la complexité unitaire de chacun des tests. On peut penser à stocker les mots qui ne sont pas dans l'arbre dans une liste (au moins leur radical) pour erradiquer tous les mots d'une même famille. Cependant, cette technique impose la création d'un nouveau trie et n'est donc pas satisfaisante.
+As each word generated will pass through the computer, it may be useful to reduce the unit complexity of each test as much as possible. We might consider storing words that are not in the tree in a list (at least their radical) to eradicate all words in the same family. However, this technique requires the creation of a new trie and is therefore unsatisfactory.
 
 \subsection{Interactive function}
+\begin{itemize}
+    \item To launch the \textit{Interactive} mode, set the \verb|MODE_AUTO| variable to \verb|False|.
+    \item You can then set the user input in the function call:
+\begin{lstlisting}[language=Python]
+results = manual_mode(trie, ['f', 'o', 'r', 'c', 'e'])
+\end{lstlisting}
+    \item You can then run the program from the command line (don't forget to activate the \verb|venv|):
+\begin{lstlisting}
+python3 word_challenge.py
+\end{lstlisting}
+\end{itemize}
 
 \subsection{Automatic execution}
-\subsubsection{Performances}
+\begin{itemize}
+    \item To launch the \textit{Automatic} mode, set the \verb|MODE_AUTO| variable to \verb|True|.
+    \item You can then set the number of letters to attempt in the following line:
+\begin{lstlisting}[language=Python]
+results = automated_mode(trie, 9)
+\end{lstlisting}
+
+    \item You can then run the program from the command line (don't forget to activate the \verb|venv|) AND enter a number of words on the command line:
+\begin{lstlisting}[language=Bash]
+python3 word_challenge.py 100
+\end{lstlisting}
+\end{itemize}
+Program philosophy :
+\begin{itemize}
+    \item The user enters in CLI a number of words to be tested
+    \item After selecting a random word from the dictionary, the program randomly shuffles the letters (displayed as a list) using the \verb|random.shuffle| function.
+    \item This list is given to the \verb|word_game_main_function| method, which returns the counter of subwords found in this list of letters.
+    \item These counters are then displayed in an tabular in CLI and stored in a \verb|.json| file.
+\end{itemize}
+
 \begin{table}[!ht]
     \centering
     \begin{tabular}{|c|c|c|c|}
         \hline
         Iteration & Initial length & CPU time & Word counter \\ \hline
         0 & 8 & 0.020746946334838867 & 72 \\ 
-        1 & 10 & 1.9368188381195068 & 150 \\ 
+        1 & 10 & 1.9368188381195068 & 150 \\
         2 & 9 & 0.18332123756408691 & 120 \\ 
         3 & 5 & 0.00010991096496582031 & 11 \\ 
         ... & ~ & ~ & ~ \\ 
@@ -119,74 +166,261 @@ Comme chaque mot généré passera dans la machine, il peut être intéressant d
     \caption{Sample performances}
 \end{table}
 
-\subsubsection{Improvements done}
+\subsubsection{Interact with dictionary}
+\paragraph{Select random word}
+To retrieve random words, you need to select a random line and extract the corresponding word. To do this, we open the file, calculate the total number of lines in the dictionary (with a simple \verb|sum| function), then extract the single line bearing that index (by enumeration). The result is something of the form \verb|future:121844371|. We then extract the word using the following method:
+\begin{lstlisting}[language=Python]
+word = line.strip().split(':')[0]
+\end{lstlisting}
+Another method was used with a \textit{regex}: \verb|r'^(?:[a-zA-Z]+)'|
 
+To select a word of a defined length, we use a \type{Trie}. The \type{Trie} can be randomly scanned until a word of the desired length is found for which the last letter has the \verb|is_end_word| attribute. You can also select a word at random until you obtain a word of the desired length. This will take longer, but is relatively negligible compared to the effort required to implement the other method.
 
+The following functions are in the \verb|set_dictionary| file.
+\paragraph{Build trie with dictionary words}
+In the same way, and as we'll need to do later on, we can build a trie with all the words in the dictionary, to be used later in the word search. We then rely on the methods implemented in the \type{Trie} data structures, such as the \verb|insert_word| method, which we iterate over each word in the dictionary. Here's how it looks:
+\begin{lstlisting}[language=Python]
+def build_trie(file_path: str) -> Trie:
+    '''Get random line from a goven file'''
+    dictionary_trie = Trie()
+
+    with open(file_path, 'r') as file:
+        for line in file:
+            dictionary_trie.insert_word(line.strip().split(':')[0])
+
+    return dictionary_trie
+\end{lstlisting}
+
+\paragraph{Get alphabet}
+Later (in the Wordle exercise), we'll need to build words from an alphabet. To use the right letters in this step, we need to have the same dictionary we used to check the presence of words in the dictionary. So, when selecting letters, we make sure we have the same letters. In this way, we ensure that we can compare words regardless of the dictionary. In the future, for example, we'll also be able to use non-alphanumeric symbols.\\
+
+We use a \type{set} structure because it's exactly what we want in terms of adding letters. Indeed, a letter is only added to the alphabet if it isn't already in it.\label{set}
+The finite alphabet $\Sigma$ is defined dynamically by extracting the set of characters from the set of words in the dictionary:
+$$\Sigma = \{\sigma_i\}_{i\in[1, m]},\; m\geqslant 2$$
+Let $D$ be the dictionary and $w$ a word in this dictionary, $c$ a letter/character:
+$$\Sigma = \bigcup_{w\in D}\{c\in w\}$$
+
+\subsubsection{Performances}
+Before testing performance, we need to analyze the data we have to make sure that the dictionary doesn't restrict our analysis. We therefore propose to display the quantity of each word by word size:
+\input{images/visualizations/dictionary_statistics.tex}
+
+To test the performance of this algorithm, we'll be using the automatic mode exclusively. I've chosen to separate the execution and data processing into two parts: retrieve the performance and then analyze it. The first is to extract the performance with the command \verb|python3 word_challenge.py 100|, taking care to set the word length to $0$ to avoid restricting the program with a certain length.\\
+
+You can then run the accompanying program to generate the histograms:
+\begin{lstlisting}
+python3 additional_algorithms/print_word_challenge_perf.py
+\end{lstlisting}
+This creates a \verb|.tex| file in the images folder of the documentation folder with the graph in question.\\
+\newpage
+\input{images/visualizations/word_challenge_performances}
+This divergence can be explained by the way words are constructed. While there are more letters available for long words, this creates many more words that don't exist in the dictionary. We could have fun calculating the proportion of valid and invalid words among all the permutations proposed by a set of letters.\\
+
+You'll notice that with 12 or more letters, the program is very, very slow and doesn't converge quickly. Indeed, the equation \ref{eq:number_of_combination} gives for 12 characters : 4017 possible words to test.
 
 \section{Wordle}
 \begin{exercise_description}{Wordle}
-In Wordle (https://en.wikipedia.org/wiki/Wordle) the user can choose to play as keeper or as guesser. The length of the secret word is defined at the beginning of the game. When playing as guesser, the program chooses a secret word of length and for each round the player writes a valid word of length and the computer outputs a string of digits with the following meaning: 0=the corresponding letter does not occur in the secret word, 1=the corresponding letter occurs in the secret word but not at that position, and 2=the corresponding letter occurs at that position. For example, if the secret word were WORDS and the current guess were WHERE, the program should output 20010, the W was correctly guessed and the R is on the secret word, but it is not in the fourth position. The game ends when the secret word is correctly guessed or some MAX GUESSES bound attained. When the player takes the rôle of the keeper, the computer will make the guesses and the user will give the answers (the strings of 0s, 1s, and 2’s).\\
+    In Wordle (\url{https://en.wikipedia.org/wiki/Wordle}) the user can choose to play as \textit{keeper} or as \textit{guesser}. The length $\ell$ of the secret word is defined at the beginning of the game. When playing as \textit{guesser}, the program chooses a secret word of length $\ell$ and for each round the player writes a valid word of length $\ell$ and the computer outputs a string of digits with the following meaning: 0=the corresponding letter does not occur in the secret word, 1=the corresponding letter occurs in the secret word but not at that position, and 2=the corresponding letter occurs at that position. For example, if the secret word were \verb|WORDS| and the current guess were \verb|WHERE|, the program should output \verb|20010|, the \verb|W| was correctly guessed and the \verb|R| is on the secret word, but it is not in the fourth position. The game ends when the secret word is correctly guessed or some \verb|MAX_GUESSES| bound attained. When the player takes the role of the keeper, the computer will make the guesses and the user will give the answers (the strings of 0s, 1s, and 2's).\\
 
-Finally the program should offer an automatic mode in which the computer plays both as keeper and guesser (without cheating, the guesser function does not have access to the secret word, only its length and the history so far of guesses and answers). For the automatic mode, the human user fixes a length and a (large) number of games to be played. For each game, the keeper chooses a random word of length and a game is played between the keeper and the guesser. At the end, the program outputs the average number of rounds needed by the guesser to guess each secret word and the average CPU time to do it.     
+    Finally the program should offer an automatic mode in which the computer plays both as keeper and guesser (without cheating, the guesser function does not have access to the secret word, only its length $\ell$ and the history so far of guesses and answers). For the automatic mode, the human user fixes a length $\ell$ and a (large) number of games to be played. For each game, the keeper chooses a random word of length $\ell$ and a game is played between the keeper and the guesser. At the end, the program outputs the average number of rounds needed by the guesser to guess each secret word and the average CPU time to do it.     
 \end{exercise_description}
+
+\subsection*{Execute the programms}
+\label{section:notice_wordle}
+For all programs, don't forget to activate the \verb|venv|, then run the following command, setting the parameters as follows:
+\begin{lstlisting}[language=Python]
+python3 wordle_game.py
+\end{lstlisting}
+\begin{itemize}
+    \item To run the interactive guesser program, run the following command:
+\begin{lstlisting}[language=Python]
+AUTOMATIC_MODE = False
+GUESSER = True
+KEEPER = False
+\end{lstlisting}
+    \item To run the keeper interactive program, run the following command:
+\begin{lstlisting}[language=Python]
+AUTOMATIC_MODE = False
+GUESSER = False
+KEEPER = True
+\end{lstlisting}
+    \item To run the automatic program for 1 puzzle only
+\begin{lstlisting}[language=Python]
+AUTOMATIC_MODE = True
+AUTOMATIC_MODE_GENERATOR = False
+\end{lstlisting}
+    \item To run the automatic program for 200 puzzles for the first 3 word lengths $\ell\in\{3, 4, 5\}$.
+\begin{lstlisting}[language=Python]
+AUTOMATIC_MODE = True
+AUTOMATIC_MODE_GENERATOR = True
+\end{lstlisting}
+\end{itemize}
+
 \subsection{Guesser mode}
+\paragraph{Principle}
+The principle of the game is defined in the instructions. I'll just explain the implementation and the choice of functions. Here's how the program works. The complete program can be found in the file \verb|wordle_guesser.py|.
+\begin{enumerate}
+    \item The program selects a random word from the provided dictionary
+    \item It then asks the user (or the keeper program in the following) to suggest a guess
+    \item It compares letter by letter whether the letter at this index is identical to the one at the same index in the secret.
+    \item If it is, then the status is set to 2 and stored in a temporary list
+    \item If not, it checks whether the proposed letter is present in the secret (and returns 1 or 0 depending on its presence)
+    \item The program finally returns the concatenated scores to the user.
+    \item This program continues until the user is successful or has exceeded the number of possible attempts. 
+\end{enumerate}
+\textcolor{red}{Please note: please note that in the following, the program names correspond to what the user has to do. This is due to an ambiguous reading of the statement. The function of the program is therefore the opposite of what its name suggests. The guesser function doesn't guess, but lets the user guess by guiding him/her, while the function tries to guess while the user keeps the secret and gives the letter scores.}.
+\paragraph{Human interaction}
+I separate the reception from the human/machine interaction in a separate function so that I can use python's \verb|input| function, then parse the result for inclusion in the program later.\\
+
+\paragraph{Scores in array or string ?}
+\begin{itemize}
+    \item Working with numeric strings is not a simple matter for analysis. You then have to parse it to extract the scores in integer form. This is the subject of an intermediate function. It's because we're asked to work with numeric strings like \verb|112001| that we do it. It's only simpler in the case of human/machine interaction.
+    \item Whatever happens, within programs, scores will be used via lists, by the following translation for example:
+\begin{lstlisting}[language=Python]
+result_array = [0 for _ in range(word_length)]
+\end{lstlisting}
+Then the reverse translation (transformation of the list into a character string):
+\begin{lstlisting}[language=Python]
+''.join(map(str, result_array))
+\end{lstlisting}
+\end{itemize}
 
 \subsection{Keeper mode}
-Cette partie a été la plus complexe à modéliser pour que le jeu soit le plus rapide possible. En effet, une approche naïve de cet exercice serait de sélectionner des lettres aléatoires pour composer un mot, de le soumettre au test pour obtenir l'évaluation (en 0, 1 et 2) puis de tester un autre et ainsi de suite. Au fur et à mesure des tests, j'ai développé des nouvelles fonctionalités permettant de ne pas faire d'itérations inutiles, chose que l'on verra dans cette partie.
-\subsubsection{Data structures used}
-Chaque tentative est considérée comme une tentative a part entière relière aux précédentes informations reçues par le guesser. Ainsi, on peut capitaliser - comme le ferait un joueur normal - sur les tentatives précédentes. Pour cela, j'ai choisi de développer une nouvelle structure de donnée regroupant les informations utiles à la construction de chaque tentative (regroupant les lettres à essayer en priorité, celles qui mèneront à l'inutile...).
+This was the most complex part of the game to model, in order to make it as quick as possible. Indeed, a naive approach to this exercise would be to select random letters to compose a word, submit it to the test to obtain the evaluation (in 0, 1 and 2) then test another and so on. As the tests progressed, I developed new features to avoid unnecessary iterations, as we'll see in this section.
 
-\subsubsection{WordLetter data structure}
+\subsection{Data structures used}
+Each guess is treated as a separate guess, linked to the previous information received by the guesser. In this way, we can capitalize - as a normal player would - on previous guesses. To do this, I've chosen to develop a new data structure grouping together the information useful for constructing each guess (grouping together the letters to be tried first, those that will lead to uselessness...).
+
+\paragraph{\type{WordLetter}} Think of the game as a series of guesses to position strategic letters. We can therefore create a resolution strategy to reduce the number of attempts.
+\begin{itemize}
+    \item For example, we can store all the letters that have already been unsuccessfully tested so as not to try them again, as this would lead to useless attempts. Beware, however: by removing this possibility, we also remove a large number of valid words that would have enabled us to detect potential new letters.
+    \item I'd also suggest implementing a boolean in the \verb|blocked_letter| field to indicate whether the letter has been found or not ($=2$). In this case, there's no need to generate new letters.
+\end{itemize}
+
 \input{images/visualizations/class_WordLetter}
-\subsubsection{Guess data structure}
+\begin{itemize}
+    \item This object is also provided with methods for performing the previous functions, such as adding a new letter to the list of letters already tested.
+\end{itemize}
+
+In conclusion, letters become objects with properties that make them intelligent, rather than just random letters in a word. Part of the logic of the game is thus transferred to the logic of the letters.
+
+
+\paragraph{\type{Guess}} The data structure aims to model the reasoning one might have when playing Wordle as a human. Words are made up of ordered letters that give rise to trial and error.
+\begin{itemize}
+    \item We choose to model the guess as a sequence of $m$ letters ordered by their \verb|index|. Each letter is initialized at the start of the game and then fed by other letters. The guess is also given an alphabet so that it knows which finite sequence of letters to draw from to make up the words.
+    \item Letters that have already been tested and failed ($=0$) are stored in a black list (type: \type{set}) so that they are not tested again, regardless of the letter \verb|bad_letters|. Next, letters that have been tested but incorrectly positioned($=1$) are stored in a \type{set} \verb|incorrect_position_letters|.
+\end{itemize}
 \input{images/visualizations/class_Guess}
 
-\subsubsection{Performances testing}
-\begin{figure}[h]
-    \centering
-    \begin{tikzpicture}
-        \begin{axis}[
-            xlabel=Word length,
-            ylabel=CPU time (s),
-            xtick=data, % Afficher une marque pour chaque donnée x
-            legend style={at={(0.05,0.95)},anchor=north west}
-            ]
-        \addplot[ybar, bar width=20pt, fill=blue!20]
-            coordinates {
-                (3, 5.6425730387369794e-06)
-                (4, 1.9073486328125e-05)
-                (5, 8.714900297277113e-05)
-                (6, 0.0004047552744547526)
-                (7, 0.0025780797004699707)
-                (8, 0.02060066952424891)
-                (9, 0.18696789308027786)
-                (10, 1.9171473185221355)
-                };
-        \addplot[domain=3:10, red, thick, smooth, dotted] {1.52e-10*exp(2.325*x)};
-        \legend{CPU time, Computed} 
-        \end{axis}
-    \end{tikzpicture}
-    \caption{Performances testing through process}
-\end{figure}
+\textbf{Methods}
+\begin{itemize}
+    \setcounter{enumi}{-1}
+    \item \verb|actualize_letter|: test a new letter for a given index
+    \item \verb|actualize_letters_informations|: updates the score of each letter before guessing.
+    \item \verb|display_word|: Displays the word broken down into a simple \type{WordLetter}.
+\end{itemize}
+
+\paragraph{\type{set}}
+As mentioned in the \ref{set} paragraph, we're using a set for "forbidden" letters and letters to be positioned in the word, because we're using the \verb|set.add()| property, which allows us to add information only if it's not already entered.
+
+\paragraph{\type{Trie}}
+To look up the words and check their existence in the dictionary, we rely on what was programmed in the first part of this assignment. We index all the words in the dictionary into a trie using the \verb|build_trie| function in the \verb|additional_algorithms| folder. Once all the words have been entered in the trie, we can use the previous coded method to check the word's existence in the trie \verb|trie.search(word: str)|.
+This will optimize the word search.
 
 
 \subsection{Automatic mode}
+\subsubsection{Different modes}
+Two automatic solving modes have been developed, the second of which builds on the first. First, it is important to program the automatic version, which solves a puzzle imposed by the guesser mode. Then, we can try to scale this resolution, which is why we developed the second program.
+
+\paragraph{Classic automatic mode}
+This program aims to interface both the \textit{guesser} and the \textit{keeper}. The guesser program responds with the string containing the scores, which is then used to generate a new word, and so on.
+\begin{lstlisting}[language=Python]
+def guesser_automatic_mode(word_length: int = SECRET_LENGTH,
+                            dictionary_path: str = DICTIONARY_PATH,
+                            max_attempts: int = MAX_GUESSES
+                          ) -> None:
+
+    # Initialisation section : trie, alphabet, secret
+    secret = ''
+    trie = build_trie(dictionary_path)
+    alphabet = set_alphabet(dictionary_path)
+
+    # Define secret (generated)
+    while len(secret) != word_length:
+        secret = extract_informations(get_random_line(dictionary_path))
+
+    # Set puzzle
+    result_array = [0 for _ in range(word_length)]
+    attempts = 0
+    guess = Guess(word_length, trie, alphabet)
+
+    # Solve puzzle
+    while not all(num == 2 for num in result_array) and attempts < max_attempts:
+        guess.new_guess([int(score) for score in result_array])
+        new_guess = guess.display_word()
+        result_array = check_guess(new_guess, secret)
+
+        attempts += 1
+
+    return {
+    'solved': all(num == 2 for num in result_array),
+    'attempts': attempts,
+    'max_attempts': max_attempts,
+    'size': word_length
+    }
+
+\end{lstlisting}
+
+\paragraph{Generate data to analyse}
+For each desired word length (from 3 to 5 in this example), 200 puzzle resolutions are generated by the keeper. This result is then stored in a json file and analyzed with the program \verb|wordle_performance| in the folder \verb|additional_algorithms|. This generates the coordinates of the curves in the performance section. 
+The advantage of this solution is that we can extract a lot of data and process it as we want. This is particularly useful to plot the two indicators we need: CPU time and the number of attempts required to find the word.
+
+
 \subsubsection{Performances}
-\subsubsection{Improvements}
+Pay attention to one point in particular. In this exercise, I chose to focus performance on the minimum number of trials. It might also have been possible to measure CPU time by running more trials.
+\paragraph{How many attempts to solve the puzzle?}
+We can see from the graph above that the trend in the number of trials to solve the puzzles decreases with increasing word length. This can be explained as follows:
+\begin{itemize}
+    \item More letters in a word = more letter attempts on each try
+    \item So more letters marked as forbidden
+    \item These letters are therefore no longer used, making way for new letters that might match (randomly generated letters).
+    \item Similarly, by testing more letters, we have more information on the letters with score 1.
+\end{itemize}
+\input{images/visualizations/wordle_performances.tex}
+On average, the program generates the answer to all challenges in less than 5 moves. This performance is achieved at the cost of computation time, which is relatively long for large words.
+
+\paragraph{How much CPU time needed to solve the puzzle?}
+We can also ask, as previously mentioned, how much CPU time this resolution represents. This is simply measured by timing the entire resolution part. Since the guesser part is negligible (as it is only constant in time), this almost totally reflects the CPU time dedicated to the keeper. With the following command, you can plot the CPU time graphs for keeper performance (take care to set the program to automatic mode, instructions here: \ref{section:notice_wordle})
+
+\begin{lstlisting}[language=Bash]
+python3 wordle_game.py && python3 additional_algorithms/wordle_performance.py
+\end{lstlisting}
+It is also possible to modify the length of the words tested to obtain better performance, but this would require a calculation over several hours.
+\input{images/visualizations/wordle_cpu_time}
 
 
 \section{Appendices}
 \subsection{Personal feedback from this exercise}
+This exercise was a real learning experience in many respects:
+\begin{itemize}
+    \item Complex project programming
+    \item Technical report writing
+    \item Clean coding and good development practices
+\end{itemize}
+
 \subsection{Interfacing \textit{tikz} and programs}
 \subsubsection{Produce dynamic tries with tikz}
+As used in the first sections, we can choose to create a python program that dynamically creates trees in tikz. This allows us to visually represent what's happening in a sort, and thus to adjust parameters, arguments, methods and so on. However, this is only possible for small trees.
 
 \subsubsection{Draw class sumaries}
-Plutot que de copier-coller et faire évoluer des morceaux de code séparément pour effectuer les mêmes tâches \textit{tikz}, j'ai choisi de construire une fonction python qui me permet de générer des résumés de chacune des classes utilisées dans les programmes. Cela permet donc de générer de nouveau toutes les illustrations du rapport si un fait évoluer un nom de variable ou qu'on les modifie. D'autre part, cela uniformise le rapport en pouvant changer les couleurs de tous les éléments d'un seul coup.
+As used in the first sections, we can choose to create a python program that dynamically creates trees in tikz. This allows us to visually represent what's happening in a trie, and thus to adjust parameters, arguments, methods and so on. However, this is only possible for small trees.
 
 
 
 
-
+\newpage
+\listoffigures
+\lstlistoflistings
+\listoftables
 \end{document}
 
 

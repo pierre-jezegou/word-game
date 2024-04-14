@@ -3,16 +3,22 @@
     \begin{tikzpicture}
         \begin{axis}[
             xlabel=Word length,
-            ylabel={{ legend }},
+            % width=\linewidth,
+            % height=5cm,
+            ylabel=CPU time,
+            ylabel style={yshift=-10pt},
             xtick=data,
+            xmin=2,
+            xmax=6,
             legend style={at={(0.05,0.95)},anchor=north west}
             ]
         \addplot[ybar, bar width=20pt, fill=blue!20]
             coordinates {
-                {{ points }}
+                (3, 0.00882602334022522)
+                (4, 0.06812063932418823)
+                (5, 1.4601097178459168)
                 };
-        \legend{ {{ legend }} } 
+        \legend{CPU time} 
         \end{axis}
     \end{tikzpicture}
-    \caption{Performances testing through process}
 \end{figure}
