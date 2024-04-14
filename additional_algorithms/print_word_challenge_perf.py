@@ -57,4 +57,4 @@ def print_infos_in_tikz(needed_informations = list[str],
     with open(EXPORT_PATH, 'w') as f:
         f.write(template.render(context))
 
-print_infos_in_tikz(['cpu_time'])
+print_infos_in_tikz(['word_counter'])
