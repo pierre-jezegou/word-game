@@ -14,7 +14,7 @@ def guesser_mode(trie: Trie,
                  dictionary_path: str = DICTIONARY_PATH,
                  max_attempts: int = MAX_GUESSES
                  ) -> None:
-
+    '''Simple guesser mode - the user has to guess the word interactively'''
     secret = ''
 
     while len(secret) != word_length:
@@ -62,6 +62,7 @@ def check_letter_status(letter: str, index: int, secret: str) -> int:
 
 
 def user_word_input(secret_length: int) -> None:
+    '''Asks the user to give a guess'''
     user_input = input('Enter your guess: ')
     try:
         assert len(user_input)==secret_length
@@ -75,7 +76,7 @@ def guesser_automatic_mode(word_length: int = SECRET_LENGTH,
                            dictionary_path: str = DICTIONARY_PATH,
                            max_attempts: int = MAX_GUESSES
                            ) -> None:
-
+    '''Same as guesser interractive mode but interact with keepermode'''
     # Initialisation section : trie, alphabet, secret
     secret = ''
     trie = build_trie(dictionary_path)
